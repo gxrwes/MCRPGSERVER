@@ -1,0 +1,15 @@
+core:
+  lang: en
+  command-aliases: nexengine
+  prefix: ProMCCore
+locale:
+  world-names:
+    world: World
+    world_nether: Nether
+    world_the_end: The End
+Features:
+  chat-enabled: true
+  scoreboards-enabled: true
+Settings:
+  command-cooldown-message: '&4Please wait &6{time} seconds &4before using the command
+    again.'

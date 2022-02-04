@@ -1,0 +1,38 @@
+GODCelestial ChampionMiner: 
+  name: 'GODCelestial ChampionMiner'
+  action-bar: ''
+  prefix: '&dGOD'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 9999
+  parent: 'Celestial ChampionMiner'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills: 
+  - 'LightningStrike'
+  - 'Fireball'
+  - 'HealDome'
+  - 'DownUnder'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 2
+  icon-durability: 0
+  icon-lore: 
+  - '&dGOD'
+  exp-source: 511

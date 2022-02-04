@@ -1,0 +1,86 @@
+HealDome: 
+  name: 'HealDome'
+  type: 'Dynamic'
+  max-level: 100
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  cooldown-message: 'true'
+  attributes: 
+    level-base: '1'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '1'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 2
+  icon-durability: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Nearest-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            radius-base: '10'
+            radius-scale: '10'
+            group: 'Enemy'
+            wall: 'True'
+            caster: 'True'
+            max-base: '3'
+            max-scale: '5'
+            indicator: '2D'
+          children: 
+            Heal-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Health'
+                value-base: '50'
+                value-scale: '50'
+                indicator: '2D'
+              children:  {}
+            Particle-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                particle: 'Heart'
+                arrangement: 'Circle'
+                radius-base: '5'
+                radius-scale: '10'
+                particles-base: '20'
+                particles-scale: '0'
+                direction: 'XZ'
+                forward: '1'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              children:  {}

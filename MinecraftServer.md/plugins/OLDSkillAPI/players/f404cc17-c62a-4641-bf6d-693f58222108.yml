@@ -1,0 +1,9 @@
+limit: 10
+active: 1
+health: 20.0
+mana: 0.0
+accounts: 
+  acc1: 
+    classes:  {}
+    skills:  {}
+    binds:  {}

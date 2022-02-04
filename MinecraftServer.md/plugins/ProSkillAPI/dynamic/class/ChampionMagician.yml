@@ -1,0 +1,37 @@
+ChampionMagician: 
+  name: 'ChampionMagician'
+  action-bar: ''
+  prefix: '&c ChampionMagician'
+  group: 'class'
+  mana: '&2Mana'
+  max-level: 200
+  parent: 'Celestial ChampionMagician'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '5000'
+    mana-scale: '100'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'BASIC_HORIZONTAL'
+  blacklist:  []
+  skills: 
+  - 'Fireball'
+  - 'LightningStrike'
+  - 'HealDome'
+  icon: 'ACACIA_BOAT'
+  icon-data: 0
+  icon-durability: 0
+  icon-lore: 
+  - '&dChampionMagician'
+  exp-source: 369

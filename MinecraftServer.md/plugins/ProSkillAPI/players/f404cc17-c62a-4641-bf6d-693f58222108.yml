@@ -1,0 +1,35 @@
+limit: 3
+active: 1
+health: 222.49957275390625
+mana: 0.0
+accounts: 
+  acc1: 
+    classes: 
+      GOD: 
+        level: 8
+        points: 8
+        exp: 24.0
+    skills: 
+      LightningStrike: 
+        level: 0
+        points: 0
+      HealDome: 
+        level: 0
+        points: 0
+      Fireball: 
+        level: 0
+        points: 0
+    binds:  {}
+    bar: 
+      enabled: 'true'
+      slots: 
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    attrib-points: 7
+    attribs:  {}
+    hover:  {}
+    instant:  {}
+    hunger: 1.0

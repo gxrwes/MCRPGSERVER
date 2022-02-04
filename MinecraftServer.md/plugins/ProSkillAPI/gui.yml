@@ -1,0 +1,26 @@
+ATTRIBUTES: 
+  rows: 1
+  pages: 1
+  slots: 
+    1: 
+      dexterity: 3
+      strength: 4
+      vitality: 0
+      spirit: 1
+      intelligence: 2
+stCelestial ChampionBarbarian: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      lightningstrike: 18
+      healdome: 9
+      fireball: 0
+stCelestial ChampionMagician: 
+  rows: 6
+  pages: 1
+  slots: 
+    1: 
+      lightningstrike: 45
+      healdome: 27
+      fireball: 9

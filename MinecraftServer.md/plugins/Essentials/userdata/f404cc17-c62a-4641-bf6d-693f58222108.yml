@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.178.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1643647916910
+  login: 1643647372155
+money: '0'
+logoutlocation:
+  world: 6dfd8129-2404-4fa9-89c2-57a2f9cd88af
+  world-name: world
+  x: 202.65291558630085
+  y: 81.49374938883759
+  z: 972.9343250462161
+  yaw: -137.6129608154297
+  pitch: 25.083175659179688
+last-account-name: GXR_Wes
