@@ -1,0 +1,2 @@
+#Ignore apache files in dev path
+#/MinecraftServer/apache-maven-3.6.0/
