@@ -61,6 +61,7 @@ Place a powered rail on a boost block (redstone block by default) to build high-
 #### Description
 
 - View the minecraft map in your [Browser]( http://localhost:8123/) *Note:* Only works if server online
+- *Test-Server-Map-View* if the testserver is operating you can view the map [here]()
 
 ### WorldEdit
 #### Links

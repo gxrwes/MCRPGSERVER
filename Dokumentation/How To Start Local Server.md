@@ -2,6 +2,13 @@
 
 *NOTE;* This Server is setup for Windows
 
+## 0. The Broken Test Server
+An Online server is currently beeing setup, therfore upstate is not garanteed, especially because its in its early steps. But if you want to try to connect the IP is
+```
+195.62.33.38
+```
+*NOTE:*the server is Whitelisted, so one can only connect after regitering with an Admin/Moderator
+
 ## 1. DOWNLOADING THE FILES
 
 - make a github account and get invited by an admin
