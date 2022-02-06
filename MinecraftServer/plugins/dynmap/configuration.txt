@@ -29,7 +29,7 @@ storage:
   #dbfile: dynmap.db
   # MySQL DB for map storage (at 'hostname':'port' with flags "flags" in database 'database' using user 'userid' password 'password' and table prefix 'prefix')
   #type: mysql
-  #hostname: localhost
+  #hostname: 
   #port: 3306
   #database: dynmap
   #userid: dynmap

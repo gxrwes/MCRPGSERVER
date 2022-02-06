@@ -1,6 +1,6 @@
-limit: 10
+limit: 3
 active: 1
-health: 20.0
+health: 5.0
 mana: 0.0
 accounts: 
   acc1: 
