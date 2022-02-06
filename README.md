@@ -1,8 +1,13 @@
 # MCRPGSERVER
 
-# Starterguide
+# Quickstart
 
-- starterguide .md is located in /documentation
+- Detailed local starterguide .md is located in /documentation
+- current launched Testing server
+```
+195.62.33.38
+```
+- [discord](https://discord.gg/znAhsb7S)
 
 *Note* PLS ALSO INSTALL GIT LFS: all info here https://git-lfs.github.com/
 
@@ -61,7 +66,7 @@ Place a powered rail on a boost block (redstone block by default) to build high-
 #### Description
 
 - View the minecraft map in your [Browser]( http://localhost:8123/) *Note:* Only works if server online
-- *Test-Server-Map-View* if the testserver is operating you can view the map [here]()
+- *Test-Server-Map-View* if the testserver is operating you can view the map [here](http://195.62.33.3:8123)
 
 ### WorldEdit
 #### Links
@@ -83,8 +88,10 @@ This is worldedit, if u dont know what this is should u be running an mc server?
 
 
 ### EconomyShopGUI
+
 #### Links
 - [Plugin Homepage](https://www.spigotmc.org/resources/economyshopgui.69927/)
+
 #### Description
 Its the shop plugin bro
 
