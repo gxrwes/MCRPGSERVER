@@ -1,51 +1,20 @@
-[00:34:14] [Craft Scheduler Thread - 25/INFO]: [Vault] Checking for Updates ... 
-[00:34:14] [Craft Scheduler Thread - 25/INFO]: [Vault] No new version available
-[06:34:14] [Craft Scheduler Thread - 26/INFO]: [Vault] Checking for Updates ... 
-[06:34:14] [Craft Scheduler Thread - 26/INFO]: [Vault] No new version available
-[11:01:33] [Server thread/INFO]: Stopping the server
-[11:01:33] [Server thread/INFO]: Stopping server
-[11:01:33] [Server thread/INFO]: [ProSkillAPI] Disabling ProSkillAPI v1.1.7.14-ALPHA
-[11:01:33] [Server thread/INFO]: [ProMCCore] Disabling ProMCCore v1.0.3.5-ALPHA
-[11:01:33] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.0
-[11:01:33] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
-[11:01:33] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[11:01:33] [Server thread/INFO]: [LWC] Disabling LWC v2.1.5-09ad392
-[11:01:33] [Server thread/INFO]: [LWC] Flushing protection updates (0)
-[11:01:33] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v4.1.2
-[11:01:33] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.0
-[11:01:33] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.2
-[11:01:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[11:01:33] [Server thread/INFO]: [SensorLibrary] Disabling SensorLibrary v0.34
-[11:01:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.8-SNAPSHOT+5996-7b4e2c2
-[11:01:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:01:34] [Server thread/INFO]: [dynmap] Disabling dynmap v3.3-beta-1-564
-[11:01:34] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[11:01:34] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[11:01:35] [Server thread/INFO]: [dynmap] Saved 13 pending tile renders in world 'world'
-[11:01:40] [Server thread/INFO]: [dynmap] Disabled
-[11:01:40] [Server thread/INFO]: [BasicCircuits] Disabling BasicCircuits v0.97
-[11:01:40] [Server thread/INFO]: [RedstoneChips] Disabling RedstoneChips v0.97
-[11:01:40] [Server thread/INFO]: [RedstoneChips] Saving world chip data...
-[11:01:40] [Server thread/INFO]: [RedstoneChips] Saving world_nether chip data...
-[11:01:40] [Server thread/INFO]: [RedstoneChips] Saving world_the_end chip data...
-[11:01:40] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:01:40] [Server thread/INFO]: [HsRails] Disabling HsRails v1.2.0
-[11:01:40] [Server thread/INFO]: [HsRails] unloading...
-[11:01:40] [Server thread/INFO]: [etCommon] Disabling etCommon v2
-[11:01:40] [Server thread/INFO]: [CommandHook] Disabling CommandHook v2.0.0
-[11:01:40] [Server thread/INFO]: [MinecraftRPG] Disabling MinecraftRPG v2.0.1
-[11:01:40] [Server thread/INFO]: [0;31;1mPlugin Disabled[m
-[11:01:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.86
-[11:01:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:01:40] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:01:41] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:01:41] [Server thread/INFO]: [MCCore] Disabling MCCore v1.67
-[11:01:41] [Server thread/INFO]: Saving players
-[11:01:41] [Server thread/INFO]: Saving worlds
-[11:01:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:01:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:01:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:01:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:01:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:01:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:59:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:59:24] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[21:59:26] [Worker-Main-19/INFO]: Loaded 7 recipes
+[21:59:29] [Server thread/INFO]: Starting minecraft server version 1.18
+[21:59:29] [Server thread/INFO]: Loading properties
+[21:59:30] [Server thread/INFO]: This server is running CraftBukkit version 3356-Spigot-dbf4938-040e0c3 (MC: 1.18) (Implementing API version 1.18-R0.1-SNAPSHOT)
+[21:59:30] [Server thread/INFO]: Debug logging is disabled
+[21:59:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:59:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:59:30] [Server thread/INFO]: Default game type: SURVIVAL
+[21:59:30] [Server thread/INFO]: Generating keypair
+[21:59:30] [Server thread/INFO]: Starting Minecraft server on 195.62.33.38:25565
+[21:59:30] [Server thread/INFO]: Using default channel type
+[21:59:30] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[21:59:30] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[21:59:30] [Server thread/WARN]: Perhaps a server is already running on that port?
+[21:59:30] [Server thread/INFO]: Stopping server
+[21:59:30] [Server thread/INFO]: Saving players
+[21:59:31] [Server thread/INFO]: Saving worlds
+[21:59:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
