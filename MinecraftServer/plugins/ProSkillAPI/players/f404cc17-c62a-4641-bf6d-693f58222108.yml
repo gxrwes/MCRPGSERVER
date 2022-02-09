@@ -1,0 +1,28 @@
+limit: 10
+active: 1
+health: 115.0
+mana: 115.0
+accounts: 
+  acc1: 
+    classes: 
+      Arch-Miner: 
+        level: 20
+        points: 20
+        exp: 131.0
+    skills:  {}
+    binds:  {}
+    bar: 
+      enabled: 'true'
+      slots: 
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    attrib-points: 19
+    attribs:  {}
+    hover:  {}
+    instant:  {}
+    hunger: 1.0
+    extra: 
+      combatItems: '9;'

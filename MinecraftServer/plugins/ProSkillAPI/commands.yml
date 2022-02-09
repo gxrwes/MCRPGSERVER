@@ -19,10 +19,6 @@ cast:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    not-available: '&cThat skill is not available for your class'
-    not-unlocked: '&cYou must level up the skill first'
-    not-skill: '&cThat is not a valid skill name'
 changeclass: 
   name: 'changeclass'
   description: 'Swaps classes'
@@ -68,9 +64,9 @@ info:
   messages: 
     title: '&8--&2 {player} &8-----------'
     separator: '&8----------------------------'
+    end: '&8----------------------------'
     category: '&6{group}&7: '
     no-class: '&7Not Professed'
-    end: '&8----------------------------'
     profession: '&bLv{level} &2{profession}'
     exp: '&bExp &2{exp}'
 level: 
@@ -81,10 +77,6 @@ level:
   sender: 'ANYONE'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    gave-level: '&2You have given &6{player} {level} levels'
-    received-level: '&2You have received &6{level} levels &2from &6{player}'
-    not-positive: '&cYou must give a positive amount of levels'
 list: 
   name: 'list'
   description: 'Displays accounts'
@@ -93,10 +85,6 @@ list:
   sender: 'ANYONE'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    title: '&8--&2 {player} &8-----------'
-    line: '&7[&6{id}&7] &2Lv&6{level} {class}'
-    end: '&8----------------------------'
 lore: 
   name: 'lore'
   description: 'Adds lore to item'
@@ -121,13 +109,6 @@ options:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    title: '&8--&2 Profess Options &8-----------'
-    category: '&6{category}&7: '
-    option: '&d{option}&7'
-    separator: '&8----------------------------'
-    no-options: '&7None'
-    end: '&8----------------------------'
 points: 
   name: 'points'
   description: 'Gives player points'
@@ -145,10 +126,10 @@ profess:
   enabled: 'true'
   cooldown: 0
   messages: 
-    invalid-class: '&cThat is not a valid class'
-    professed: '&2You are now a &6{class}'
     not-available: "&cThere's no profession available at this time"
     cannot-profess: '&cYou cannot profess to this class currently'
+    professed: '&2You are now a &6{class}'
+    invalid-class: '&cThat is not a valid class'
 reload: 
   name: 'reload'
   description: 'Reloads the plugin'
@@ -165,10 +146,6 @@ reset:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    confirm: "&4This will delete your active account's data entirely"
-    instructions: '&7Type &6/class reset confirm&7 to continue'
-    reset: '&2You have reset your active account data'
 skill: 
   name: 'skill'
   description: 'Shows player skills'
@@ -177,8 +154,6 @@ skill:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    no-skills: '&cYou have no skills to view'
 unbind: 
   name: 'unbind'
   description: 'Unbinds held item'
@@ -211,9 +186,6 @@ forceaccount:
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    account-changed: "&6{player}'s&2 active account has been changed"
-    target-notice: '&2Your account has been forced to &6Account #{account}'
 forceattr: 
   name: 'forceattr'
   description: 'Refunds/gives attributes'
@@ -247,10 +219,7 @@ forceprofess:
   enabled: 'true'
   cooldown: 0
   messages: 
-    invalid-class: '&cThat is not a valid class'
     cannot-profess: '&cThey cannot profess to this class currently'
-    success: '&6{player}&2 is now a &6{class}'
-    professed: '&2You are now a &6{class}'
 forcereset: 
   name: 'forcereset'
   description: 'Resets player data'
@@ -275,8 +244,6 @@ acc:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
-  messages: 
-    account-changed: '&2Your account has been changed'
 ap: 
   name: 'ap'
   description: 'Gives attrib points'
