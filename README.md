@@ -3,19 +3,49 @@
 # Quickstart
 
 - Detailed local starterguide .md is located in /documentation
-- current launched Testing server
+## current launched Testing server
 ```
 195.62.33.38
 ```
+
+- The server has a whitelist to msg an Admin/Moderator for access [ here ]( #List-of-Admins )
 - [discord](https://discord.gg/znAhsb7S)
 
 *Note* PLS ALSO INSTALL GIT LFS: all info here https://git-lfs.github.com/
+# Roadmap and current TODOs
 
-## Plugins Overall Info
+## Short Term
+- learn and build  CommandAPI ( so we can use Player activated commandblocks with non vanilla commands)
+- build basic progession system
+- add some basic skills/spells etc
+- choose shader/texture pack
+- zoneing for permissions (block place/break/interact permissions)
+- update doc
+
+## Long Term
+- build/balance classes
+- differe between jobs/classes
+- add races (elves, dwarfs etc) perhaps with locked skills/spells/abilities/stats
+- add npc and quests
+
+
+# Plugins Overall Info
 
 Some of these Plugins are in BETA or no longer supportet and have been dropped/Just dont work anymore. this list will be updated as the project goes on
 
 ### MCCore
+
+### CommandApi
+
+#### Links
+
+- [Plugin Homepage](https://www.spigotmc.org/resources/api-commandapi-1-16-5-1-18-1.62353/)
+- [Plugin Git](https://github.com/JorelAli/CommandAPI)
+
+#### Description
+
+- The CommandAPI provides full support for the new command UI which was implemented in Minecraft's 1.13 update.
+- hoping to add custom commands for commandblocks
 
 ### LuckPerms
 
