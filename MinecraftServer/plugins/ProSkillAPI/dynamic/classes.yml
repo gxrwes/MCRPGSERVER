@@ -30,20 +30,20 @@ GOD:
   - 'LightningStrike'
   - 'Fireball'
   - 'HealDome'
-  icon: 'JACK_O_LANTERN'
-  icon-data: 2
-  icon-durability: 0
+  icon: 'ACACIA_BOAT'
+  icon-data: 0
+  icon-durability: 2
   icon-lore: 
   - '&dGOD'
   exp-source: 511
-GODCelestial ChampionMiner: 
-  name: 'GODCelestial ChampionMiner'
+GOD Miner: 
+  name: 'GOD Miner'
   action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
-  parent: 'Celestial ChampionMiner'
+  parent: 'GOD'
   needs-permission: 'true'
   attributes: 
     health-base: '10000'
@@ -68,16 +68,16 @@ GODCelestial ChampionMiner:
   - 'Fireball'
   - 'HealDome'
   - 'DownUnder'
-  icon: 'JACK_O_LANTERN'
-  icon-data: 2
-  icon-durability: 0
+  icon: 'ACACIA_BOAT'
+  icon-data: 0
+  icon-durability: 2
   icon-lore: 
   - '&dGOD'
   exp-source: 511
-Celestial ChampionMagician: 
-  name: 'Celestial ChampionMagician'
+Celestial ChampionMiner: 
+  name: 'Celestial ChampionMiner'
   action-bar: ''
-  prefix: '&cCelestial ChampionMagician'
+  prefix: '&cCelestial ChampionMiner'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
@@ -111,182 +111,6 @@ Celestial ChampionMagician:
   icon-lore: 
   - '&dCelestial ChampionMagician'
   exp-source: 369
-Celestial ChampionBarbarian: 
-  name: 'Celestial ChampionBarbarian'
-  action-bar: ''
-  prefix: '&cCelestial ChampionBarbarian'
-  group: 'class'
-  mana: '&2Mana'
-  max-level: 200
-  parent: 'GOD'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '10000'
-    health-scale: '50'
-    mana-base: '200'
-    mana-scale: '5'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '100'
-    strength-scale: '0'
-  mana-regen: 0.5
-  tree: 'REQUIREMENT'
-  blacklist:  []
-  skills:  []
-  icon: 'IRON_AXE'
-  icon-data: 0
-  icon-durability: 0
-  icon-lore: 
-  - '&dCelestial ChampionBarbarian'
-  exp-source: 339
-Celestial ChampionMiner: 
-  name: 'Celestial ChampionMiner'
-  action-bar: ''
-  prefix: '&cCelestial ChampionMiner'
-  group: 'class'
-  mana: '&2Stamina'
-  max-level: 200
-  parent: 'ChampionMiner'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '500'
-    health-scale: '10'
-    mana-base: '500'
-    mana-scale: '50'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '5'
-    strength-scale: '0'
-  mana-regen: 20.0
-  tree: 'LEVEL_HORIZONTAL'
-  blacklist:  []
-  skills:  []
-  icon: 'DIAMOND_PICKAXE'
-  icon-data: 0
-  icon-durability: 0
-  icon-lore: 
-  - '&dClass 2'
-  exp-source: 402
-Celestial ChampionBuilder: 
-  name: 'Celestial ChampionBuilder'
-  action-bar: ''
-  prefix: '&cCelestial ChampionBuilder'
-  group: 'class'
-  mana: '&2Stamina'
-  max-level: '200'
-  parent: 'GODCelestial ChampionBuilder'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '500'
-    health-scale: '10'
-    mana-base: '500'
-    mana-scale: '50'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '5'
-    strength-scale: '0'
-  mana-regen: '20.0'
-  tree: 'LEVEL_HORIZONTAL'
-  blacklist: ' []'
-  skills: ' []'
-  icon: 'DIAMOND_PICKAXE'
-  icon-data: '0'
-  icon-durability: '0'
-  icon-lore: 
-  - '&dClass 2'
-  exp-source: '402'
-ChampionMagician: 
-  name: 'ChampionMagician'
-  action-bar: ''
-  prefix: '&c ChampionMagician'
-  group: 'class'
-  mana: '&2Mana'
-  max-level: 200
-  parent: 'Celestial ChampionMagician'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '50'
-    health-scale: '5'
-    mana-base: '5000'
-    mana-scale: '100'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '0'
-    strength-scale: '0'
-  mana-regen: 1.0
-  tree: 'BASIC_HORIZONTAL'
-  blacklist:  []
-  skills: 
-  - 'Fireball'
-  - 'LightningStrike'
-  - 'HealDome'
-  icon: 'ACACIA_BOAT'
-  icon-data: 0
-  icon-durability: 0
-  icon-lore: 
-  - '&dChampionMagician'
-  exp-source: 369
-ChampionBuilder: 
-  name: 'ChampionBuilder'
-  action-bar: ''
-  prefix: '&6 ChampionBuilder'
-  group: 'class'
-  mana: '&2Mana'
-  max-level: '200'
-  parent: 'Celestial ChampionBuilder'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '50'
-    health-scale: '5'
-    mana-base: '5000'
-    mana-scale: '100'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '0'
-    strength-scale: '0'
-  mana-regen: '1.0'
-  tree: 'BASIC_HORIZONTAL'
-  blacklist: ' []'
-  skills: 
-  - 'Fireball'
-  - 'LightningStrike'
-  - 'HealDome'
-  icon: 'ACACIA_BOAT'
-  icon-data: '0'
-  icon-durability: '0'
-  icon-lore: 
-  - '&dChampionMagician'
-  exp-source: '369'
 ChampionMiner: 
   name: 'ChampionMiner'
   action-bar: ''
@@ -294,7 +118,7 @@ ChampionMiner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
-  parent: 'HeroMiner'
+  parent: ''
   needs-permission: 'false'
   attributes: 
     health-base: '150'
@@ -346,7 +170,7 @@ HeroMiner:
     strength-base: '0'
     strength-scale: '0'
   mana-regen: 1.0
-  tree: 'LEVEL_HORIZONTAL'
+  tree: 'REQUIREMENT'
   blacklist:  []
   skills:  []
   icon: 'IRON_PICKAXE'
@@ -355,40 +179,6 @@ HeroMiner:
   icon-lore: 
   - '&dClass 2'
   exp-source: 402
-HeroBuilder: 
-  name: 'HeroBuilder'
-  action-bar: ''
-  prefix: '&eHeroBuilder'
-  group: 'class'
-  mana: '&2Stamina'
-  max-level: '50'
-  parent: 'ChampionBuilder'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '50'
-    health-scale: '5'
-    mana-base: '50'
-    mana-scale: '5'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '0'
-    strength-scale: '0'
-  mana-regen: '1.0'
-  tree: 'LEVEL_HORIZONTAL'
-  blacklist: ' []'
-  skills: ' []'
-  icon: 'IRON_PICKAXE'
-  icon-data: '0'
-  icon-durability: '0'
-  icon-lore: 
-  - '&dClass 2'
-  exp-source: '402'
 Arch-Miner: 
   name: 'Arch-Miner'
   action-bar: ''
@@ -396,7 +186,7 @@ Arch-Miner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
-  parent: 'Miner'
+  parent: 'HeroMiner'
   needs-permission: 'false'
   attributes: 
     health-base: '20'
@@ -423,40 +213,6 @@ Arch-Miner:
   icon-lore: 
   - '&dClass 2'
   exp-source: 402
-Arch-Builder: 
-  name: 'Arch-Builder'
-  action-bar: ''
-  prefix: '&9Arch-Builder'
-  group: 'class'
-  mana: '&2Stamina'
-  max-level: '50'
-  parent: 'HeroBuilder'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '20'
-    health-scale: '5'
-    mana-base: '20'
-    mana-scale: '5'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '0'
-    strength-scale: '0'
-  mana-regen: '1.0'
-  tree: 'LEVEL_HORIZONTAL'
-  blacklist: ' []'
-  skills: ' []'
-  icon: 'STONE_PICKAXE'
-  icon-data: '0'
-  icon-durability: '0'
-  icon-lore: 
-  - '&dClass 2'
-  exp-source: '402'
 Miner: 
   name: 'Miner'
   action-bar: ''
@@ -464,7 +220,7 @@ Miner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
-  parent: ''
+  parent: 'HeroMiner'
   needs-permission: 'false'
   attributes: 
     health-base: '10'
@@ -482,7 +238,7 @@ Miner:
     strength-base: '0'
     strength-scale: '0'
   mana-regen: 1.0
-  tree: 'LEVEL_HORIZONTAL'
+  tree: 'REQUIREMENT'
   blacklist:  []
   skills: 
   - 'DownUnder'
@@ -492,75 +248,6 @@ Miner:
   icon-lore: 
   - '&dClass 2'
   exp-source: 400
-Builder: 
-  name: 'Builder'
-  action-bar: ''
-  prefix: '&bBuilder'
-  group: 'class'
-  mana: '&2Stamina'
-  max-level: '20'
-  parent: 'Arch-Builder'
-  needs-permission: 'false'
-  attributes: 
-    health-base: '10'
-    health-scale: '5'
-    mana-base: '10'
-    mana-scale: '5'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '0'
-    strength-scale: '0'
-  mana-regen: '1.0'
-  tree: 'LEVEL_HORIZONTAL'
-  blacklist: ' []'
-  skills: 
-  - 'DownUnder'
-  icon: 'WOODEN_PICKAXE'
-  icon-data: '0'
-  icon-durability: '0'
-  icon-lore: 
-  - '&dClass 2'
-  exp-source: '400'
-Peasant: 
-  name: 'Peasant'
-  action-bar: ''
-  prefix: 'Peasant'
-  group: 'class'
-  mana: ''
-  max-level: 5
-  parent: ''
-  needs-permission: 'false'
-  attributes: 
-    health-base: '5'
-    health-scale: '1'
-    mana-base: '5'
-    mana-scale: '1'
-    vitality-base: '0'
-    vitality-scale: '0'
-    spirit-base: '0'
-    spirit-scale: '0'
-    intelligence-base: '0'
-    intelligence-scale: '0'
-    dexterity-base: '0'
-    dexterity-scale: '0'
-    strength-base: '0'
-    strength-scale: '0'
-  mana-regen: 1.0
-  tree: 'LEVEL_HORIZONTAL'
-  blacklist:  []
-  skills:  []
-  icon: 'COBBLESTONE'
-  icon-data: 0
-  icon-durability: 0
-  icon-lore: 
-  - '&dClass 2'
-  exp-source: 273
 PeasantMiner: 
   name: 'PeasantMiner'
   action-bar: ''
@@ -586,7 +273,7 @@ PeasantMiner:
     strength-base: '0'
     strength-scale: '0'
   mana-regen: 1.0
-  tree: 'BASIC_HORIZONTAL'
+  tree: 'REQUIREMENT'
   blacklist:  []
   skills:  []
   icon: 'COBBLESTONE'
@@ -594,4 +281,4 @@ PeasantMiner:
   icon-durability: 0
   icon-lore: 
   - '&dClass 2'
-  exp-source: 273
+  exp-source: 337

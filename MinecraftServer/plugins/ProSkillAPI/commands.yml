@@ -2,7 +2,7 @@ class:
   name: 'class'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 bind: 
   name: 'bind'
   description: 'Binds a skill'
@@ -10,7 +10,7 @@ bind:
   args: '<skill>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 cast: 
   name: 'cast'
   description: 'Casts a skill'
@@ -18,7 +18,7 @@ cast:
   args: '<skill>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     not-available: '&cThat skill is not available for your class'
     not-unlocked: '&cYou must level up the skill first'
@@ -30,7 +30,7 @@ changeclass:
   args: '<player> <group> <class>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 clearbind: 
   name: 'clearbind'
   description: 'Clears skill binds'
@@ -38,7 +38,7 @@ clearbind:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 customize: 
   name: 'customize'
   description: 'Opens GUI editor'
@@ -46,7 +46,7 @@ customize:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 exp: 
   name: 'exp'
   description: 'Gives players exp'
@@ -54,7 +54,7 @@ exp:
   args: '[player] <amount> [group]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     received-exp: '&2You have received &6{exp} experience &2from &6{player}'
 info: 
@@ -64,7 +64,7 @@ info:
   args: '[player]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     title: '&8--&2 {player} &8-----------'
     separator: '&8----------------------------'
@@ -80,7 +80,7 @@ level:
   args: '[player] <amount> [group]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     gave-level: '&2You have given &6{player} {level} levels'
     received-level: '&2You have received &6{level} levels &2from &6{player}'
@@ -92,7 +92,7 @@ list:
   args: '[player]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     title: '&8--&2 {player} &8-----------'
     line: '&7[&6{id}&7] &2Lv&6{level} {class}'
@@ -104,7 +104,7 @@ lore:
   args: '<lore>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 mana: 
   name: 'mana'
   description: 'Gives player mana'
@@ -112,7 +112,7 @@ mana:
   args: '[player] <amount>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 options: 
   name: 'options'
   description: 'Views profess options'
@@ -120,7 +120,7 @@ options:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     title: '&8--&2 Profess Options &8-----------'
     category: '&6{category}&7: '
@@ -135,7 +135,7 @@ points:
   args: '[player] <amount>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 profess: 
   name: 'profess'
   description: 'Professes classes'
@@ -143,11 +143,12 @@ profess:
   args: '<class>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     invalid-class: '&cThat is not a valid class'
     professed: '&2You are now a &6{class}'
     not-available: "&cThere's no profession available at this time"
+    cannot-profess: '&cYou cannot profess to this class currently'
 reload: 
   name: 'reload'
   description: 'Reloads the plugin'
@@ -155,7 +156,7 @@ reload:
   args: ''
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 reset: 
   name: 'reset'
   description: 'Resets account data'
@@ -163,7 +164,7 @@ reset:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     confirm: "&4This will delete your active account's data entirely"
     instructions: '&7Type &6/class reset confirm&7 to continue'
@@ -175,7 +176,7 @@ skill:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     no-skills: '&cYou have no skills to view'
 unbind: 
@@ -185,7 +186,7 @@ unbind:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 world: 
   name: 'world'
   description: 'Moves to world'
@@ -193,7 +194,7 @@ world:
   args: '<world>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 help: 
   name: 'help'
   description: 'Get help for the plugin'
@@ -201,7 +202,7 @@ help:
   args: '<page>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 forceaccount: 
   name: 'forceaccount'
   description: "Changes player's account"
@@ -209,7 +210,7 @@ forceaccount:
   args: '<player> <accountId>'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     account-changed: "&6{player}'s&2 active account has been changed"
     target-notice: '&2Your account has been forced to &6Account #{account}'
@@ -220,7 +221,7 @@ forceattr:
   args: '<player> [attr] [amount]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 forcecast: 
   name: 'forcecast'
   description: 'Player casts the skill'
@@ -228,7 +229,7 @@ forcecast:
   args: '<player> <skill> [level]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 mobcast: 
   name: 'mobcast'
   description: 'Mob casts the skill'
@@ -236,7 +237,7 @@ mobcast:
   args: '<mob_uuid> <skill> [level]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 forceprofess: 
   name: 'forceprofess'
   description: 'Professes a player'
@@ -244,7 +245,7 @@ forceprofess:
   args: '<player> <class>'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     invalid-class: '&cThat is not a valid class'
     cannot-profess: '&cThey cannot profess to this class currently'
@@ -257,7 +258,7 @@ forcereset:
   args: '<player> [account]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 forceskill: 
   name: 'forceskill'
   description: 'Modifies skill levels'
@@ -265,7 +266,7 @@ forceskill:
   args: '<player> <up|down|reset> <skill>'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 acc: 
   name: 'acc'
   description: 'Changes account'
@@ -273,7 +274,7 @@ acc:
   args: '<accountId>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
   messages: 
     account-changed: '&2Your account has been changed'
 ap: 
@@ -283,7 +284,7 @@ ap:
   args: '[player] <amount>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
 attr: 
   name: 'attr'
   description: 'Opens attribute menu'
@@ -291,4 +292,4 @@ attr:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: '0'
+  cooldown: 0
