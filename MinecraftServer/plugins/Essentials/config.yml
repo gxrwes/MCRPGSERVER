@@ -5,7 +5,7 @@
 ############################################################
 
 # This is the config file for EssentialsX.
-# This config was generated for version 2.19.0.
+# This config was generated for version 2.19.2.
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
 # If you receive an error when Essentials loads, ensure that:
@@ -697,6 +697,11 @@ jail-online-time: false
 # Set the timeout, in seconds for players to accept a tpa before the request is cancelled.
 # Set to 0 for no timeout.
 tpa-accept-cancellation: 120
+
+# The maximum number of simultaneous tpa requests that can be pending for any player.
+# Once past this threshold, old requests will instantly time out.
+# Defaults to 5.
+tpa-max-requests: 5
 
 # Allow players to set hats by clicking on their helmet slot.
 allow-direct-hat: true

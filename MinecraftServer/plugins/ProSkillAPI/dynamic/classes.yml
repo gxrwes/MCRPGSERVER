@@ -26,24 +26,21 @@ GOD:
   mana-regen: 10000.0
   tree: 'BASIC_HORIZONTAL'
   blacklist:  []
-  skills: 
-  - 'LightningStrike'
-  - 'Fireball'
-  - 'HealDome'
+  skills:  []
   icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-durability: 2
+  icon-durability: 0
   icon-lore: 
   - '&dGOD'
   exp-source: 511
-GOD Miner: 
-  name: 'GOD Miner'
+GODMiner: 
+  name: 'GODMiner'
   action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
-  parent: 'GOD'
+  parent: 'CelestialChampionMiner'
   needs-permission: 'true'
   attributes: 
     health-base: '10000'
@@ -63,25 +60,21 @@ GOD Miner:
   mana-regen: 10000.0
   tree: 'LEVEL_HORIZONTAL'
   blacklist:  []
-  skills: 
-  - 'LightningStrike'
-  - 'Fireball'
-  - 'HealDome'
-  - 'DownUnder'
+  skills:  []
   icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-durability: 2
+  icon-durability: 0
   icon-lore: 
   - '&dGOD'
   exp-source: 511
-Celestial ChampionMiner: 
-  name: 'Celestial ChampionMiner'
+CelestialChampionMiner: 
+  name: 'CelestialChampionMiner'
   action-bar: ''
-  prefix: '&cCelestial ChampionMiner'
+  prefix: '&cCelestialChampionMiner'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
-  parent: ''
+  parent: 'ChampionMiner'
   needs-permission: 'false'
   attributes: 
     health-base: '150'
@@ -101,10 +94,7 @@ Celestial ChampionMiner:
   mana-regen: 1.0
   tree: 'REQUIREMENT'
   blacklist:  []
-  skills: 
-  - 'Fireball'
-  - 'LightningStrike'
-  - 'HealDome'
+  skills:  []
   icon: 'ACACIA_BOAT'
   icon-data: 0
   icon-durability: 0
@@ -118,7 +108,7 @@ ChampionMiner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
-  parent: ''
+  parent: 'HeroMiner'
   needs-permission: 'false'
   attributes: 
     health-base: '150'
@@ -152,7 +142,7 @@ HeroMiner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
-  parent: 'ChampionMiner'
+  parent: 'Arch-Miner'
   needs-permission: 'false'
   attributes: 
     health-base: '50'
@@ -186,7 +176,7 @@ Arch-Miner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
-  parent: 'HeroMiner'
+  parent: 'Miner'
   needs-permission: 'false'
   attributes: 
     health-base: '20'
@@ -220,7 +210,7 @@ Miner:
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
-  parent: 'HeroMiner'
+  parent: 'PeasantMiner'
   needs-permission: 'false'
   attributes: 
     health-base: '10'
@@ -240,8 +230,7 @@ Miner:
   mana-regen: 1.0
   tree: 'REQUIREMENT'
   blacklist:  []
-  skills: 
-  - 'DownUnder'
+  skills:  []
   icon: 'WOODEN_PICKAXE'
   icon-data: 0
   icon-durability: 0
@@ -255,7 +244,7 @@ PeasantMiner:
   group: 'class'
   mana: ''
   max-level: 5
-  parent: 'Miner'
+  parent: ''
   needs-permission: 'false'
   attributes: 
     health-base: '5'
