@@ -139,6 +139,7 @@ as well as tweak and disable various gameplay features of Minecraft.
 #### Description:
 
 - This plugins is responsible for the basic rgp system, here custom classes races and skills are set
+- useful tutorials:[Skill Example Rouge Invisibility](https://www.youtube.com/watch?v=TqhrYVYtOXs)
 
 
 # Feedback
