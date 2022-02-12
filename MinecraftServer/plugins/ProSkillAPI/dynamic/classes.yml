@@ -2380,3 +2380,207 @@ Necromancer:
     dexterity-scale: 0
     strength-base: 0
     strength-scale: 0
+GODMagician:
+  name: 'GODMagician'
+  prefix: '&dGOD'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 9999
+  parent: 'CelestialChampionMagician'
+  needs-permission: 'True'
+  exp-source: 511
+  mana-regen: 10000
+  tree: 'Level Horizontal'
+  skills:
+  icon: 'Paper'
+  icon-data: 0
+  icon-lore:
+  - '&dGOD'
+  blacklist:
+  action-bar: ''
+  attributes:
+    health-base: 10000
+    health-scale: 100000
+    mana-base: 10000
+    mana-scale: 100000
+    vitality-base: 0
+    vitality-scale: 0
+    spirit-base: 0
+    spirit-scale: 0
+    intelligence-base: 0
+    intelligence-scale: 0
+    dexterity-base: 0
+    dexterity-scale: 0
+    strength-base: 0
+    strength-scale: 0
+CelestialMagician:
+  name: 'CelestialMagician'
+  prefix: '&cCelestialMagician'
+  group: 'class'
+  mana: '&2Mana'
+  max-level: 200
+  parent: 'Magician'
+  needs-permission: 'False'
+  exp-source: 369
+  mana-regen: 1
+  tree: 'Requirement'
+  skills:
+  - ''
+  icon: 'Paper'
+  icon-data: 0
+  icon-lore:
+  - '&dCelestial ChampionMagician'
+  blacklist:
+  - ''
+  action-bar: ''
+  attributes:
+    health-base: 150
+    health-scale: 5
+    mana-base: 10000
+    mana-scale: 200
+    vitality-base: 0
+    vitality-scale: 0
+    spirit-base: 0
+    spirit-scale: 0
+    intelligence-base: 0
+    intelligence-scale: 0
+    dexterity-base: 0
+    dexterity-scale: 0
+    strength-base: 0
+    strength-scale: 0
+ChampionMagician:
+  name: 'ChampionMagician'
+  prefix: '&6ChampionMagician'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 100
+  parent: 'HeroMagician'
+  needs-permission: 'False'
+  exp-source: 337
+  mana-regen: 1
+  tree: 'Level Horizontal'
+  skills:
+  - ''
+  icon: 'Paper'
+  icon-data: 0
+  icon-lore:
+  - '&dClass 2'
+  blacklist:
+  - ''
+  action-bar: ''
+  attributes:
+    health-base: 150
+    health-scale: 5
+    mana-base: 50
+    mana-scale: 5
+    vitality-base: 0
+    vitality-scale: 0
+    spirit-base: 0
+    spirit-scale: 0
+    intelligence-base: 0
+    intelligence-scale: 0
+    dexterity-base: 0
+    dexterity-scale: 0
+    strength-base: 0
+    strength-scale: 0
+HeroMagician:
+  name: 'HeroMagician'
+  prefix: '&eHeroMagician'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 50
+  parent: 'ArchMagician'
+  needs-permission: 'False'
+  exp-source: 273
+  mana-regen: 1
+  tree: 'Requirement'
+  skills:
+  - ''
+  icon: 'Paper'
+  icon-data: 0
+  icon-lore:
+  - '&dClass 2'
+  blacklist:
+  - ''
+  action-bar: ''
+  attributes:
+    health-base: 50
+    health-scale: 5
+    mana-base: 50
+    mana-scale: 5
+    vitality-base: 0
+    vitality-scale: 0
+    spirit-base: 0
+    spirit-scale: 0
+    intelligence-base: 0
+    intelligence-scale: 0
+    dexterity-base: 0
+    dexterity-scale: 0
+    strength-base: 0
+    strength-scale: 0
+ArchMagician:
+  name: 'ArchMagician'
+  prefix: '&9ArchMagician'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 50
+  parent: 'Magician'
+  needs-permission: 'False'
+  exp-source: 337
+  mana-regen: 1
+  tree: 'Level Horizontal'
+  skills:
+  icon: 'Paper'
+  icon-data: 0
+  icon-lore:
+  - '&dClass 2'
+  blacklist:
+  action-bar: ''
+  attributes:
+    health-base: 20
+    health-scale: 5
+    mana-base: 20
+    mana-scale: 5
+    vitality-base: 0
+    vitality-scale: 0
+    spirit-base: 0
+    spirit-scale: 0
+    intelligence-base: 0
+    intelligence-scale: 0
+    dexterity-base: 0
+    dexterity-scale: 0
+    strength-base: 0
+    strength-scale: 0
+Magician:
+  name: 'Magician'
+  prefix: '&bMagician'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 20
+  parent: ''
+  needs-permission: 'False'
+  exp-source: 337
+  mana-regen: 1
+  tree: 'Requirement'
+  skills:
+  icon: 'Paper'
+  icon-data: 0
+  icon-lore:
+  - '&dClass 2'
+  blacklist:
+  action-bar: ''
+  attributes:
+    health-base: 10
+    health-scale: 5
+    mana-base: 10
+    mana-scale: 5
+    vitality-base: 0
+    vitality-scale: 0
+    spirit-base: 0
+    spirit-scale: 0
+    intelligence-base: 0
+    intelligence-scale: 0
+    dexterity-base: 0
+    dexterity-scale: 0
+    strength-base: 0
+    strength-scale: 0
