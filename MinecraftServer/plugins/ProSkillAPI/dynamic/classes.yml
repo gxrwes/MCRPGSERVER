@@ -592,6 +592,7 @@ ChampionArcher:
   mana-regen: 1
   tree: 'Level Horizontal'
   skills:
+  - 'Archer Passive'
   icon: 'Bow'
   icon-data: 0
   icon-lore:
@@ -625,6 +626,7 @@ HeroArcher:
   mana-regen: 1
   tree: 'Requirement'
   skills:
+  - 'Archer Passive'
   icon: 'Bow'
   icon-data: 0
   icon-lore:
@@ -691,6 +693,7 @@ Archer:
   mana-regen: 1
   tree: 'Requirement'
   skills:
+  - 'Archer Passive'
   icon: 'Bow'
   icon-data: 0
   icon-lore:
