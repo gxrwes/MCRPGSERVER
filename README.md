@@ -175,8 +175,16 @@ as well as tweak and disable various gameplay features of Minecraft.
 
 - Sofar added Classes: 
 ```
-Class-Tree: Archer
-Class-Tree: Caster
+Class-Tree: Archer              // Not Tested
+Class-Tree: Caster              // Not Tested
+Class-Tree: Druid               // Not Tested
+Class-Tree: Bard                // Not Tested
+Class-Tree: Barbarian           // Not Tested
+Class-Tree: Warlock             // Not Tested
+Class-Tree: Magician            // Not Tested
+Class-Tree: Necromancer         // Not Tested
+Class-Tree: Cleric              // Not Tested
+Class-Tree: Ranger              // Not Tested
 
 Job-Tree: Miner
 Job-Tree: Builder
