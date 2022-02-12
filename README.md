@@ -186,9 +186,30 @@ Skill-Basic: Rogue Passive      // No Scalability
 Skill-Basic: Heal or Shield     // No Scalability
 ```
 
+### CommandButtons
+
+#### Links
+
+- [Plugin Homepage](https://www.spigotmc.org/resources/commandbuttons-execute-commands-on-block-interaction.60991/)
+
+#### Description
+
+- testing phase soo we can minimize console utilisation for players
+
 # Feedback
 
 For errors/help/feedback or any other issues pls contact a Project Administrator or Moderator
+
+### Xaeros Minimap
+#### Links
+
+- [Plugin Homepage](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
+- [Plugin Homepage2](https://chocolateminecraft.com/minimap2.php#)
+
+#### Description
+
+- testing phase for ingame hud minimap
+
 
 ## List of Admins
 - GXR_Wes
