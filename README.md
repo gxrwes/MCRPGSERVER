@@ -141,6 +141,20 @@ as well as tweak and disable various gameplay features of Minecraft.
 - This plugins is responsible for the basic rgp system, here custom classes races and skills are set
 - useful tutorials:[Skill Example Rouge Invisibility](https://www.youtube.com/watch?v=TqhrYVYtOXs)
 
+#### Developement Status and Notes:
+
+- Sofar added Classes: 
+```
+Class-Tree: Archer
+Class-Tree: Caster
+
+Job-Tree: Miner
+Job-Tree: Builder
+
+Skill-Basic: Archer Passive     // No Scalability
+Skill-Basic: Rogue Passive      // No Scalability
+Skill-Basic: Heal or Shield     // No Scalability
+```
 
 # Feedback
 
