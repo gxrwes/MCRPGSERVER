@@ -65,6 +65,8 @@ info:
     category: '&6{group}&7: '
     no-class: '&7Not Professed'
     end: '&8----------------------------'
+    profession: '&bLv{level} &2{profession}'
+    exp: '&bExp &2{exp}'
 level: 
   name: 'level'
   description: 'Gives players levels'

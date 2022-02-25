@@ -1,0 +1,34 @@
+Ranger: 
+  name: 'Ranger'
+  action-bar: ''
+  prefix: '&bRanger'
+  group: 'class'
+  mana: '&2Stamina'
+  max-level: 20
+  parent: ''
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
+  icon-data: 0
+  icon-durability: 0
+  icon-lore: 
+  - '&dClass 2'
+  exp-source: 337

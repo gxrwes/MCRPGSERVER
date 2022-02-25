@@ -1,2586 +1,2588 @@
-loaded: false
-GOD:
+loaded: 'true'
+GOD: 
   name: 'GOD'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Mana'
   max-level: 9999
   parent: ''
   needs-permission: 'true'
-  exp-source: 511
-  mana-regen: 10000
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
   tree: 'BASIC_HORIZONTAL'
-  skills:
+  blacklist:  []
+  skills:  []
   icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODMiner:
+  exp-source: 511
+GODMiner: 
   name: 'GODMiner'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'job'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionMiner'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Acacia Boat'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionMiner:
+  exp-source: 511
+CelestialChampionMiner: 
   name: 'CelestialChampionMiner'
+  action-bar: ''
   prefix: '&cCelestialChampionMiner'
   group: 'job'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionMiner'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Acacia Boat'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionMiner:
+  exp-source: 369
+ChampionMiner: 
   name: 'ChampionMiner'
+  action-bar: ''
   prefix: '&6ChampionMiner'
   group: 'job'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroMiner'
-  needs-permission: 'False'
-  exp-source: 402
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Golden Pickaxe'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'GOLDEN_PICKAXE'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroMiner:
+  exp-source: 402
+HeroMiner: 
   name: 'HeroMiner'
+  action-bar: ''
   prefix: '&eHeroMiner'
   group: 'job'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchMiner'
-  needs-permission: 'False'
-  exp-source: 402
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Iron Pickaxe'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'IRON_PICKAXE'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchMiner:
+  exp-source: 402
+ArchMiner: 
   name: 'ArchMiner'
+  action-bar: ''
   prefix: '&9ArchMiner'
   group: 'job'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Miner'
-  needs-permission: 'False'
-  exp-source: 402
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Stone Pickaxe'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'STONE_PICKAXE'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Miner:
+  exp-source: 402
+Miner: 
   name: 'Miner'
+  action-bar: ''
   prefix: '&bMiner'
   group: 'job'
   mana: '&2Stamina'
   max-level: 20
   parent: 'PeasantMiner'
-  needs-permission: 'False'
-  exp-source: 400
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Wooden Pickaxe'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'WOODEN_PICKAXE'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-PeasantMiner:
+  exp-source: 400
+PeasantMiner: 
   name: 'PeasantMiner'
+  action-bar: ''
   prefix: 'Peasant'
   group: 'job'
   mana: ''
   max-level: 5
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Cobblestone'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '5'
+    health-scale: '1'
+    mana-base: '5'
+    mana-scale: '1'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'COBBLESTONE'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 5
-    health-scale: 1
-    mana-base: 5
-    mana-scale: 1
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODBuilder:
+  exp-source: 337
+GODBuilder: 
   name: 'GODBuilder'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'job'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionBuilder'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Acacia Boat'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionBuilder:
+  exp-source: 511
+CelestialChampionBuilder: 
   name: 'CelestialChampionBuilder'
+  action-bar: ''
   prefix: '&cCelestialChampionBuilder'
   group: 'job'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionBuilder'
-  needs-permission: 'False'
-  exp-source: 383
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Spruce Wood'
-  icon-data: 0
-  icon-lore:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'SPRUCE_WOOD'
+  icon-data: 13
+  icon-durability: 0
+  icon-lore: 
   - '&d'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionBuilder:
+  exp-source: 383
+ChampionBuilder: 
   name: 'ChampionBuilder'
+  action-bar: ''
   prefix: '&6ChampionBuilder'
   group: 'job'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroBuilder'
-  needs-permission: 'False'
-  exp-source: 284
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Spruce Wood'
-  icon-data: 0
-  icon-lore:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'SPRUCE_WOOD'
+  icon-data: 13
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroBuilder:
+  exp-source: 284
+HeroBuilder: 
   name: 'HeroBuilder'
+  action-bar: ''
   prefix: '&eHeroBuilder'
   group: 'job'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchBuilder'
-  needs-permission: 'False'
-  exp-source: 412
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Spruce Planks'
-  icon-data: 0
-  icon-lore:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'SPRUCE_PLANKS'
+  icon-data: 1
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchBuilder:
+  exp-source: 412
+ArchBuilder: 
   name: 'ArchBuilder'
+  action-bar: ''
   prefix: '&9ArchBuilder'
   group: 'job'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Builder'
-  needs-permission: 'False'
-  exp-source: 348
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Spruce Slab'
-  icon-data: 0
-  icon-lore:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'SPRUCE_SLAB'
+  icon-data: 1
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Builder:
+  exp-source: 348
+Builder: 
   name: 'Builder'
+  action-bar: ''
   prefix: '&bMiner'
   group: 'job'
   mana: '&2Stamina'
   max-level: 20
   parent: 'PeasantBuilder'
-  needs-permission: 'False'
-  exp-source: 316
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Spruce Slab'
-  icon-data: 0
-  icon-lore:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'SPRUCE_SLAB'
+  icon-data: 1
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-PeasantBuilder:
+  exp-source: 316
+PeasantBuilder: 
   name: 'PeasantBuilder'
+  action-bar: ''
   prefix: 'Peasant'
   group: 'job'
   mana: ''
   max-level: 5
   parent: ''
-  needs-permission: 'False'
-  exp-source: 341
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Spruce Pressure Plate'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '5'
+    health-scale: '1'
+    mana-base: '5'
+    mana-scale: '1'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'SPRUCE_PRESSURE_PLATE'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 5
-    health-scale: 1
-    mana-base: 5
-    mana-scale: 1
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODArcher:
+  exp-source: 341
+GODArcher: 
   name: 'GODArcher'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionArcher'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Acacia Boat'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionArcher:
+  exp-source: 511
+CelestialChampionArcher: 
   name: 'CelestialChampionArcher'
+  action-bar: ''
   prefix: '&cCelestialChampionArcher'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionArcher'
-  needs-permission: 'False'
-  exp-source: 377
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Acacia Boat'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'ACACIA_BOAT'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionArcher:
+  exp-source: 377
+ChampionArcher: 
   name: 'ChampionArcher'
+  action-bar: ''
   prefix: '&6ChampionArcher'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroArcher'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills: 
   - 'Archer Passive'
-  icon: 'Bow'
+  icon: 'BOW'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroArcher:
+  exp-source: 337
+HeroArcher: 
   name: 'HeroArcher'
+  action-bar: ''
   prefix: '&eHeroArcher'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchArcher'
-  needs-permission: 'False'
-  exp-source: 281
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills: 
   - 'Archer Passive'
-  icon: 'Bow'
+  icon: 'BOW'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchArcher:
+  exp-source: 281
+ArchArcher: 
   name: 'ArchArcher'
+  action-bar: ''
   prefix: '&9ArchArcher'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Miner'
-  needs-permission: 'False'
-  exp-source: 345
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Bow'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'BOW'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Archer:
+  exp-source: 345
+Archer: 
   name: 'Archer'
+  action-bar: ''
   prefix: '&bArcher'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: 'PeasantArcher'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills: 
   - 'Archer Passive'
-  icon: 'Bow'
+  icon: 'BOW'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-PeasantArcher:
+  exp-source: 273
+PeasantArcher: 
   name: 'PeasantArcher'
+  action-bar: ''
   prefix: 'Peasant'
   group: 'class'
   mana: ''
   max-level: 5
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Bow'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '5'
+    health-scale: '1'
+    mana-base: '5'
+    mana-scale: '1'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'BOW'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 5
-    health-scale: 1
-    mana-base: 5
-    mana-scale: 1
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODCaster:
+  exp-source: 337
+GODCaster: 
   name: 'GODCaster'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionCaster'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionCaster:
+  exp-source: 511
+CelestialChampionCaster: 
   name: 'CelestialChampionCaster'
+  action-bar: ''
   prefix: '&cCelestialChampionCaster'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionCaster'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionCaster:
+  exp-source: 369
+ChampionCaster: 
   name: 'ChampionCaster'
+  action-bar: ''
   prefix: '&6ChampionCaster'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroCaster'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroCaster:
+  exp-source: 337
+HeroCaster: 
   name: 'HeroCaster'
+  action-bar: ''
   prefix: '&eHeroCaster'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchCaster'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchCaster:
+  exp-source: 273
+ArchCaster: 
   name: 'ArchCaster'
+  action-bar: ''
   prefix: '&9ArchCaster'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Miner'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Caster:
+  exp-source: 337
+Caster: 
   name: 'Caster'
+  action-bar: ''
   prefix: '&bCaster'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODRouge:
+  exp-source: 337
+GODRouge: 
   name: 'GODRouge'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionRouge'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionRouge:
+  exp-source: 511
+CelestialChampionRouge: 
   name: 'CelestialChampionRouge'
+  action-bar: ''
   prefix: '&cCelestialChampionRouge'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionRouge'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionRouge:
+  exp-source: 369
+ChampionRouge: 
   name: 'ChampionRouge'
+  action-bar: ''
   prefix: '&6ChampionRouge'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroRouge'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroRouge:
+  exp-source: 337
+HeroRouge: 
   name: 'HeroRouge'
+  action-bar: ''
   prefix: '&eHeroRouge'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchRouge'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchRouge:
+  exp-source: 273
+ArchRouge: 
   name: 'ArchRouge'
+  action-bar: ''
   prefix: '&9ArchRouge'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Rouge'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Rouge:
+  exp-source: 337
+Rouge: 
   name: 'Rouge'
+  action-bar: ''
   prefix: '&bRouge'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODBarbarian:
+  exp-source: 337
+GODBarbarian: 
   name: 'GODBarbarian'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionBarbarian'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionBarbarian:
+  exp-source: 511
+CelestialChampionBarbarian: 
   name: 'CelestialChampionBarbarian'
+  action-bar: ''
   prefix: '&cCelestialChampionBarbarian'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionBarbarian'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionBarbarian:
+  exp-source: 369
+ChampionBarbarian: 
   name: 'ChampionBarbarian'
+  action-bar: ''
   prefix: '&6ChampionBarbarian'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroBarbarian'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroBarbarian:
+  exp-source: 337
+HeroBarbarian: 
   name: 'HeroBarbarian'
+  action-bar: ''
   prefix: '&eHeroBarbarian'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchBarbarian'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchBarbarian:
+  exp-source: 273
+ArchBarbarian: 
   name: 'ArchBarbarian'
+  action-bar: ''
   prefix: '&9ArchBarbarian'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Barbarian'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Barbarian:
+  exp-source: 337
+Barbarian: 
   name: 'Barbarian'
+  action-bar: ''
   prefix: '&bBarbarian'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODBard:
+  exp-source: 337
+GODBard: 
   name: 'GODBard'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionBard'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionBard:
+  exp-source: 511
+CelestialChampionBard: 
   name: 'CelestialChampionBard'
+  action-bar: ''
   prefix: '&cCelestialChampionBard'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionBard'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionBard:
+  exp-source: 369
+ChampionBard: 
   name: 'ChampionBard'
+  action-bar: ''
   prefix: '&6ChampionBard'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroBard'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroBard:
+  exp-source: 337
+HeroBard: 
   name: 'HeroBard'
+  action-bar: ''
   prefix: '&eHeroBard'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchBard'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchBard:
+  exp-source: 273
+ArchBard: 
   name: 'ArchBard'
+  action-bar: ''
   prefix: '&9ArchBard'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Bard'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Bard:
+  exp-source: 337
+Bard: 
   name: 'Bard'
+  action-bar: ''
   prefix: '&bBard'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODRanger:
+  exp-source: 337
+GODRanger: 
   name: 'GODRanger'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionRanger'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionRanger:
+  exp-source: 511
+CelestialChampionRanger: 
   name: 'CelestialChampionRanger'
+  action-bar: ''
   prefix: '&cCelestialChampionRanger'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionRanger'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionRanger:
+  exp-source: 369
+ChampionRanger: 
   name: 'ChampionRanger'
+  action-bar: ''
   prefix: '&6ChampionRanger'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroRanger'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroRanger:
+  exp-source: 337
+HeroRanger: 
   name: 'HeroRanger'
+  action-bar: ''
   prefix: '&eHeroRanger'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchRanger'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchRanger:
+  exp-source: 273
+ArchRanger: 
   name: 'ArchRanger'
+  action-bar: ''
   prefix: '&9ArchRanger'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Ranger'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Ranger:
+  exp-source: 337
+Ranger: 
   name: 'Ranger'
+  action-bar: ''
   prefix: '&bRanger'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODWarlock:
+  exp-source: 337
+GODWarlock: 
   name: 'GODWarlock'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionWarlock'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionWarlock:
+  exp-source: 511
+CelestialChampionWarlock: 
   name: 'CelestialChampionWarlock'
+  action-bar: ''
   prefix: '&cCelestialChampionWarlock'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionWarlock'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionWarlock:
+  exp-source: 369
+ChampionWarlock: 
   name: 'ChampionWarlock'
+  action-bar: ''
   prefix: '&6ChampionWarlock'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroWarlock'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroWarlock:
+  exp-source: 337
+HeroWarlock: 
   name: 'HeroWarlock'
+  action-bar: ''
   prefix: '&eHeroWarlock'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchWarlock'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchWarlock:
+  exp-source: 273
+ArchWarlock: 
   name: 'ArchWarlock'
+  action-bar: ''
   prefix: '&9ArchWarlock'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Warlock'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Warlock:
+  exp-source: 337
+Warlock: 
   name: 'Warlock'
+  action-bar: ''
   prefix: '&bWarlock'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODDruid:
+  exp-source: 337
+GODDruid: 
   name: 'GODDruid'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionDruid'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialChampionDruid:
+  exp-source: 511
+CelestialChampionDruid: 
   name: 'CelestialChampionDruid'
+  action-bar: ''
   prefix: '&cCelestialChampionDruid'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'ChampionDruid'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionDruid:
+  exp-source: 369
+ChampionDruid: 
   name: 'ChampionDruid'
+  action-bar: ''
   prefix: '&6ChampionDruid'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroDruid'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroDruid:
+  exp-source: 337
+HeroDruid: 
   name: 'HeroDruid'
+  action-bar: ''
   prefix: '&eHeroDruid'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchDruid'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchDruid:
+  exp-source: 273
+ArchDruid: 
   name: 'ArchDruid'
+  action-bar: ''
   prefix: '&9ArchDruid'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Druid'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Druid:
+  exp-source: 337
+Druid: 
   name: 'Druid'
+  action-bar: ''
   prefix: '&bDruid'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODNecromancer:
+  exp-source: 337
+GODNecromancer: 
   name: 'GODNecromancer'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionNecromancer'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialNecromancer:
+  exp-source: 511
+CelestialNecromancer: 
   name: 'CelestialNecromancer'
+  action-bar: ''
   prefix: '&cCelestialNecromancer'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'Necromancer'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionNecromancer:
+  exp-source: 369
+ChampionNecromancer: 
   name: 'ChampionNecromancer'
+  action-bar: ''
   prefix: '&6ChampionNecromancer'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroNecromancer'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroNecromancer:
+  exp-source: 337
+HeroNecromancer: 
   name: 'HeroNecromancer'
+  action-bar: ''
   prefix: '&eHeroNecromancer'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchNecromancer'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchNecromancer:
+  exp-source: 273
+ArchNecromancer: 
   name: 'ArchNecromancer'
+  action-bar: ''
   prefix: '&9ArchNecromancer'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Necromancer'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Necromancer:
+  exp-source: 337
+Necromancer: 
   name: 'Necromancer'
+  action-bar: ''
   prefix: '&bNecromancer'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-GODMagician:
+  exp-source: 337
+GODMagician: 
   name: 'GODMagician'
+  action-bar: ''
   prefix: '&dGOD'
   group: 'class'
   mana: '&2Stamina'
   max-level: 9999
   parent: 'CelestialChampionMagician'
-  needs-permission: 'True'
-  exp-source: 511
-  mana-regen: 10000
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'true'
+  attributes: 
+    health-base: '10000'
+    health-scale: '100000'
+    mana-base: '10000'
+    mana-scale: '100000'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 10000.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dGOD'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10000
-    health-scale: 100000
-    mana-base: 10000
-    mana-scale: 100000
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-CelestialMagician:
+  exp-source: 511
+CelestialMagician: 
   name: 'CelestialMagician'
+  action-bar: ''
   prefix: '&cCelestialMagician'
   group: 'class'
   mana: '&2Mana'
   max-level: 200
   parent: 'Magician'
-  needs-permission: 'False'
-  exp-source: 369
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '10000'
+    mana-scale: '200'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dCelestial ChampionMagician'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 10000
-    mana-scale: 200
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ChampionMagician:
+  exp-source: 369
+ChampionMagician: 
   name: 'ChampionMagician'
+  action-bar: ''
   prefix: '&6ChampionMagician'
   group: 'class'
   mana: '&2Stamina'
   max-level: 100
   parent: 'HeroMagician'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '150'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 150
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-HeroMagician:
+  exp-source: 337
+HeroMagician: 
   name: 'HeroMagician'
+  action-bar: ''
   prefix: '&eHeroMagician'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'ArchMagician'
-  needs-permission: 'False'
-  exp-source: 273
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  - ''
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '50'
+    health-scale: '5'
+    mana-base: '50'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  - ''
-  action-bar: ''
-  attributes:
-    health-base: 50
-    health-scale: 5
-    mana-base: 50
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-ArchMagician:
+  exp-source: 273
+ArchMagician: 
   name: 'ArchMagician'
+  action-bar: ''
   prefix: '&9ArchMagician'
   group: 'class'
   mana: '&2Stamina'
   max-level: 50
   parent: 'Magician'
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Level Horizontal'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '20'
+    health-scale: '5'
+    mana-base: '20'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'LEVEL_HORIZONTAL'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 20
-    health-scale: 5
-    mana-base: 20
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
-Magician:
+  exp-source: 337
+Magician: 
   name: 'Magician'
+  action-bar: ''
   prefix: '&bMagician'
   group: 'class'
   mana: '&2Stamina'
   max-level: 20
   parent: ''
-  needs-permission: 'False'
-  exp-source: 337
-  mana-regen: 1
-  tree: 'Requirement'
-  skills:
-  icon: 'Paper'
+  needs-permission: 'false'
+  attributes: 
+    health-base: '10'
+    health-scale: '5'
+    mana-base: '10'
+    mana-scale: '5'
+    vitality-base: '0'
+    vitality-scale: '0'
+    spirit-base: '0'
+    spirit-scale: '0'
+    intelligence-base: '0'
+    intelligence-scale: '0'
+    dexterity-base: '0'
+    dexterity-scale: '0'
+    strength-base: '0'
+    strength-scale: '0'
+  mana-regen: 1.0
+  tree: 'REQUIREMENT'
+  blacklist:  []
+  skills:  []
+  icon: 'PAPER'
   icon-data: 0
-  icon-lore:
+  icon-durability: 0
+  icon-lore: 
   - '&dClass 2'
-  blacklist:
-  action-bar: ''
-  attributes:
-    health-base: 10
-    health-scale: 5
-    mana-base: 10
-    mana-scale: 5
-    vitality-base: 0
-    vitality-scale: 0
-    spirit-base: 0
-    spirit-scale: 0
-    intelligence-base: 0
-    intelligence-scale: 0
-    dexterity-base: 0
-    dexterity-scale: 0
-    strength-base: 0
-    strength-scale: 0
+  exp-source: 337

@@ -1,11 +1,15 @@
 limit: 3
 active: 1
-health: 5.25
-mana: 5.0
+health: 15.25
+mana: 15.0
 accounts: 
   acc1: 
     classes: 
       PeasantMiner: 
+        level: 1
+        points: 1
+        exp: 0.0
+      Druid: 
         level: 1
         points: 1
         exp: 0.0

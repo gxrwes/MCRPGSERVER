@@ -1,0 +1,106 @@
+Rogue Passive: 
+  name: 'Rogue Passive'
+  type: 'Dynamic'
+  max-level: 5
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  cooldown-message: 'true'
+  attributes: 
+    cost-base: '1'
+    cooldown-scale: '0'
+    cost-scale: '0'
+    level-scale: '0'
+    level-base: '1'
+    mana-base: '0'
+    mana-scale: '0'
+    cooldown-base: '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'IRON_BOOTS'
+  icon-data: 0
+  icon-durability: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - 'When you crouch, become invisible for '
+  - '5 seconds.'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc:  []
+  components: 
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Passive-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            counts: 'True'
+            icon-key: ''
+            seconds-scale: '0'
+            seconds-base: '0.2'
+            indicator: '2D'
+          children: 
+            Flag-c: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'Invisible'
+                indicator: '2D'
+              children: 
+                Crouch-d: 
+                  type: 'condition'
+                  indicator: '3D'
+                  data: 
+                    crouch: 'True'
+                    icon-key: ''
+                    indicator: '2D'
+                  children: 
+                    Disguise-e: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        mob: 'Creeper'
+                        duration-base: '5'
+                        counts: 'True'
+                        icon-key: ''
+                        duration-scale: '0'
+                        type: 'Mob'
+                        adult: 'True'
+                        indicator: '2D'
+                      children:  {}
+                    Potion-f: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        potion: 'Invisibility'
+                        counts: 'True'
+                        icon-key: ''
+                        ambient: 'True'
+                        tier-scale: '0'
+                        seconds-scale: '0'
+                        tier-base: '1'
+                        seconds-base: '5'
+                        indicator: '2D'
+                      children:  {}
+                    Flag-g: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        counts: 'True'
+                        icon-key: ''
+                        key: 'Invisible'
+                        seconds-scale: '0'
+                        seconds-base: '7'
+                        indicator: '2D'
+                      children:  {}

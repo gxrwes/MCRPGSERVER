@@ -1,0 +1,112 @@
+Archer Passive: 
+  name: 'Archer Passive'
+  type: 'Passive'
+  max-level: 5
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  cooldown-message: 'true'
+  attributes: 
+    cost-base: '1'
+    cooldown-scale: '0'
+    cost-scale: '0'
+    level-scale: '0'
+    level-base: '1'
+    mana-base: '0'
+    mana-scale: '0'
+    cooldown-base: '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'BOW'
+  icon-data: 0
+  icon-durability: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - 'Every 10 seconds, if you have less than 5 arrows, gain 5 "Free Arrows" in your inventory.'
+  - ''
+  - ''
+  - ''
+  - ''
+  desc:  []
+  components: 
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Passive-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            counts: 'True'
+            icon-key: ''
+            seconds-scale: '0'
+            seconds-base: '9'
+            indicator: '2D'
+          children: 
+            Inventory-c: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                regex: 'False'
+                material: 'Arrow'
+                check-name: 'False'
+                icon-key: ''
+                amount-scale: '0'
+                check-mat: 'True'
+                amount-base: '5'
+                check-data: 'False'
+                check-lore: 'False'
+                indicator: '2D'
+              children: 
+                Flag-d: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    counts: 'True'
+                    icon-key: ''
+                    key: 'HasArrows'
+                    seconds-scale: '0'
+                    seconds-base: '2'
+                    indicator: '2D'
+                  children:  {}
+            Delay-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                counts: 'True'
+                delay-base: '1'
+                icon-key: ''
+                delay-scale: '0'
+                indicator: '2D'
+              children: 
+                Flag-f: 
+                  type: 'condition'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    type: 'Not Set'
+                    key: 'HasArrows'
+                    indicator: '2D'
+                  children: 
+                    Item-g: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        amount: '5'
+                        material: 'Arrow'
+                        data: '0'
+                        lore: 
+                        - 'Given for free by Archer Passive'
+                        counts: 'True'
+                        byte: '0'
+                        custom: 'True'
+                        name: 'Free Arrow'
+                        icon-key: ''
+                        indicator: '2D'
+                      children:  {}
