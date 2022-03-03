@@ -162,15 +162,30 @@ as well as tweak and disable various gameplay features of Minecraft.
 
 #### Links
 
-- [Plugin Homepage](https://www.spigotmc.org/resources/proskillapi-create-custom-races-classes-skills-spells-magic-spells-with-an-easy-online-editor.91913/)
-- [Online Skill Editor](https://promcteam.github.io/proskillapi/)
-- [Wiki](https://promcteam.com/wiki/index.php?title=Proskillapi:Proskillapi)
+- [Plugin Homepage](https://www.spigotmc.org/resources/proskillapi-parties.96932/)
 
 #### Description:
 
 - This plugins is responsible for the basic rgp system, here custom classes races and skills are set
-- useful tutorials:[Skill Example Rouge Invisibility](https://www.youtube.com/watch?v=TqhrYVYtOXs)
-
+- Show information about your party with the built in scoreboard feature in Proskillapi. (if enabled)
+- Set the max size allowed in a party.
+- Set automatic timeout for invites, if the player does not accept the invite
+- Set if a new leader is added to the party if the original leader disconnects
+- Set whether or not to use the party scoreboard
+- Set whether or not to use the players level or health in the scoreboard if enabled
+- Set if only the leader can invite
+- Set the experience modification based on the number of members in the party
+- Set experience modification based on the difference of levels between party members.
+Commands
+```
+/pt accept: Accept a party invitation
+/pt decline: Declines a party invitation
+/pt invite <player>: Invites a player to join a party
+/pt leave: Leaves your current party
+/pt info: Shows basic information about your party
+Permissions
+party.general: Permission to use the commands
+```
 #### Developement Status and Notes:
 
 - Sofar added Classes: 
@@ -194,6 +209,40 @@ Skill-Basic: Rogue Passive      // No Scalability
 Skill-Basic: Heal or Shield     // No Scalability
 ```
 
+### ProSkillAPI Parties
+
+
+#### Links
+
+- [Plugin Homepage](https://www.spigotmc.org/resources/proskillapi-create-custom-races-classes-skills-spells-magic-spells-with-an-easy-online-editor.91913/)
+- [Online Skill Editor](https://promcteam.github.io/proskillapi/)
+- [Wiki](https://promcteam.com/wiki/index.php?title=Proskillapi:Proskillapi)
+
+#### Description:
+
+- This plugins is responsible for the basic rgp system, here custom classes races and skills are set
+
+#### Developement Status and Notes:
+
+- Sofar added Classes: 
+```
+Class-Tree: Archer              // Not Tested
+Class-Tree: Caster              // Not Tested
+Class-Tree: Druid               // Not Tested
+Class-Tree: Bard                // Not Tested
+Class-Tree: Barbarian           // Not Tested
+Class-Tree: Warlock             // Not Tested
+Class-Tree: Magician            // Not Tested
+Class-Tree: Necromancer         // Not Tested
+Class-Tree: Cleric              // Not Tested
+Class-Tree: Ranger              // Not Tested
+
+Job-Tree: Miner
+Job-Tree: Builder
+
+Skill-Basic: Archer Passive     // No Scalability
+Skill-Basic: Rogue Passive      // No Scalability
+Skill-Basic: Heal or Shield     // No Scalability
 ### CommandButtons
 
 #### Links
