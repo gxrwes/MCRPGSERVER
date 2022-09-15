@@ -1,0 +1,307 @@
+loaded: 'false'
+Archer Passive: 
+  name: 'Archer Passive'
+  type: 'Passive'
+  max-level: 5
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    cost-base: '1'
+    cooldown-scale: '0'
+    cost-scale: '0'
+    level-scale: '0'
+    level-base: '1'
+    mana-base: '0'
+    mana-scale: '0'
+    cooldown-base: '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'BOW'
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - 'Every 10 seconds, if you have less than 5 arrows, gain 5 "Free Arrows" in your inventory.'
+  - ''
+  - ''
+  - ''
+  - ''
+  desc:  []
+  components: 
+    Initialize: 
+      type: 'trigger'
+      data: 
+        icon-key: ''
+      children: 
+        Passive-b: 
+          type: 'mechanic'
+          data: 
+            counts: 'True'
+            icon-key: ''
+            seconds-scale: '0'
+            seconds-base: '9'
+          children: 
+            Inventory-c: 
+              type: 'condition'
+              data: 
+                regex: 'False'
+                material: 'Arrow'
+                check-name: 'False'
+                icon-key: ''
+                amount-scale: '0'
+                check-mat: 'True'
+                amount-base: '5'
+                check-data: 'False'
+                check-lore: 'False'
+              children: 
+                Flag-d: 
+                  type: 'mechanic'
+                  data: 
+                    counts: 'True'
+                    icon-key: ''
+                    key: 'HasArrows'
+                    seconds-scale: '0'
+                    seconds-base: '2'
+                  children:  {}
+            Delay-e: 
+              type: 'mechanic'
+              data: 
+                counts: 'True'
+                delay-base: '1'
+                icon-key: ''
+                delay-scale: '0'
+              children: 
+                Flag-f: 
+                  type: 'condition'
+                  data: 
+                    icon-key: ''
+                    type: 'Not Set'
+                    key: 'HasArrows'
+                  children: 
+                    Item-g: 
+                      type: 'mechanic'
+                      data: 
+                        amount: '5'
+                        material: 'Arrow'
+                        data: '0'
+                        lore: 
+                        - 'Given for free by Archer Passive'
+                        counts: 'True'
+                        byte: '0'
+                        custom: 'True'
+                        name: 'Free Arrow'
+                        icon-key: ''
+                      children:  {}
+Rogue Passive: 
+  name: 'Rogue Passive'
+  type: 'Dynamic'
+  max-level: 5
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    cost-base: '1'
+    cooldown-scale: '0'
+    cost-scale: '0'
+    level-scale: '0'
+    level-base: '1'
+    mana-base: '0'
+    mana-scale: '0'
+    cooldown-base: '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'IRON_BOOTS'
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - 'When you crouch, become invisible for '
+  - '5 seconds.'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc:  []
+  components: 
+    Initialize: 
+      type: 'trigger'
+      data: 
+        icon-key: ''
+      children: 
+        Passive-b: 
+          type: 'mechanic'
+          data: 
+            counts: 'True'
+            icon-key: ''
+            seconds-scale: '0'
+            seconds-base: '0.2'
+          children: 
+            Flag-c: 
+              type: 'condition'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'Invisible'
+              children: 
+                Crouch-d: 
+                  type: 'condition'
+                  data: 
+                    crouch: 'True'
+                    icon-key: ''
+                  children: 
+                    Disguise-e: 
+                      type: 'mechanic'
+                      data: 
+                        mob: 'Creeper'
+                        duration-base: '5'
+                        counts: 'True'
+                        icon-key: ''
+                        duration-scale: '0'
+                        type: 'Mob'
+                        adult: 'True'
+                      children:  {}
+                    Potion-f: 
+                      type: 'mechanic'
+                      data: 
+                        potion: 'Invisibility'
+                        counts: 'True'
+                        icon-key: ''
+                        ambient: 'True'
+                        tier-scale: '0'
+                        seconds-scale: '0'
+                        tier-base: '1'
+                        seconds-base: '5'
+                      children:  {}
+                    Flag-g: 
+                      type: 'mechanic'
+                      data: 
+                        counts: 'True'
+                        icon-key: ''
+                        key: 'Invisible'
+                        seconds-scale: '0'
+                        seconds-base: '7'
+                      children:  {}
+Heal or Shield: 
+  name: 'Heal or Shield'
+  type: 'Dynamic'
+  max-level: 5
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    cost-base: '1'
+    cooldown-scale: '0'
+    cost-scale: '0'
+    level-scale: '0'
+    level-base: '1'
+    mana-base: '0'
+    mana-scale: '0'
+    cooldown-base: '1'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - 'Heal yourself over time 2 health per second for 3 seconds.'
+  - "If you're already under the effect of a heal over time,"
+  - 'gain absorption 2 for 3 seconds instead.'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      data: 
+        icon-key: ''
+      children: 
+        Flag-b: 
+          type: 'condition'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'HealOT'
+          children: 
+            Repeat-c: 
+              type: 'mechanic'
+              data: 
+                period: '1'
+                delay: '0'
+                repetitions-base: '3'
+                counts: 'True'
+                icon-key: ''
+                repetitions-scale: '0'
+              children: 
+                Heal-d: 
+                  type: 'mechanic'
+                  data: 
+                    counts: 'True'
+                    value-scale: '0'
+                    icon-key: ''
+                    type: 'Health'
+                    value-base: '2'
+                  children:  {}
+                Flag-e: 
+                  type: 'mechanic'
+                  data: 
+                    counts: 'True'
+                    icon-key: ''
+                    key: 'HealOT'
+                    seconds-scale: '0'
+                    seconds-base: '1'
+                  children:  {}
+                Particle-f: 
+                  type: 'mechanic'
+                  data: 
+                    arrangement: 'Circle'
+                    counts: 'True'
+                    forward: '0'
+                    radius-scale: '0'
+                    icon-key: ''
+                    particles-scale: '0'
+                    particle: 'Heart'
+                    particles-base: '20'
+                    right: '0'
+                    radius-base: '1'
+                    direction: 'XZ'
+                    upward: '0'
+                  children:  {}
+        Flag-g: 
+          type: 'condition'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'HealOT'
+          children: 
+            Sound-h: 
+              type: 'mechanic'
+              data: 
+                pitch-scale: '0'
+                counts: 'True'
+                volume-base: '100'
+                volume-scale: '0'
+                icon-key: ''
+                pitch-base: '2'
+                version: '1.9+'
+                newsound: 'Entity Player Splash'
+              children:  {}
+            Potion-i: 
+              type: 'mechanic'
+              data: 
+                potion: 'Absorption'
+                counts: 'True'
+                icon-key: ''
+                ambient: 'False'
+                tier-scale: '0'
+                seconds-scale: '0'
+                tier-base: '2'
+                seconds-base: '3'
+              children:  {}
