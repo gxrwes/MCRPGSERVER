@@ -1,0 +1,691 @@
+[20:09:11] [ServerMain/INFO]: Building unoptimized datafixer
+[20:09:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:09:16] [ServerMain/INFO]: Loaded 7 recipes
+[20:09:17] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:09:17] [Server thread/INFO]: Loading properties
+[20:09:18] [Server thread/INFO]: This server is running CraftBukkit version 3586-Spigot-4c157bb-5cc9c02 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[20:09:18] [Server thread/INFO]: Debug logging is disabled
+[20:09:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:09:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:09:18] [Server thread/INFO]: Default game type: SURVIVAL
+[20:09:18] [Server thread/INFO]: Generating keypair
+[20:09:18] [Server thread/INFO]: Starting Minecraft server on 195.62.33.38:25565
+[20:09:18] [Server thread/INFO]: Using default channel type
+[20:09:18] [Server thread/ERROR]: Could not load 'plugins\adminshop-1.5.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:18] [Server thread/ERROR]: Could not load 'plugins\cloth-api-3.1.61.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:19] [Server thread/ERROR]: Could not load 'plugins\ExpandedRailsModv1.10.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:19] [Server thread/ERROR]: Could not load 'plugins\InventoryHUD-fabric-[1.18]+-3.4.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:19] [Server thread/ERROR]: Could not load 'plugins\Multiverse-Core-4.3.2-SNAPSHOT-javadoc.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:19] [Server thread/ERROR]: Could not load 'plugins\SimpleBackpack_Fabric-1.18.1-1.2.29.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:19] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins\worldedit-bukkit-7.2.8-SNAPSHOT-dist.jar' and `plugins\worldedit-bukkit-7.2.7.jar' in `plugins'
+[20:09:19] [Server thread/ERROR]: Could not load 'plugins\Xaeros_Minimap_22.1.3_Forge_1.18.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:414) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[20:09:19] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:09:26] [Server thread/WARN]: Legacy plugin etCommon v2 does not specify an api-version.
+[20:09:26] [Server thread/WARN]: Legacy plugin RedstoneChips v0.97 does not specify an api-version.
+[20:09:26] [Server thread/WARN]: Legacy plugin BasicCircuits v0.97 does not specify an api-version.
+[20:09:26] [Server thread/WARN]: Legacy plugin SensorLibrary v0.34 does not specify an api-version.
+[20:09:26] [Server thread/INFO]: [ProMCCore] Loading 2 libraries... please wait
+[20:09:26] [Server thread/INFO]: [ProMCCore] Loaded library C:\Servers\MC\MCRPGSERVER\MinecraftServer\libraries\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar
+[20:09:26] [Server thread/INFO]: [ProMCCore] Loaded library C:\Servers\MC\MCRPGSERVER\MinecraftServer\libraries\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar
+[20:09:26] [Server thread/INFO]: [ProMCCore] Loaded library C:\Servers\MC\MCRPGSERVER\MinecraftServer\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[20:09:26] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.86
+[20:09:27] [Server thread/INFO]: [MinecraftRPG] Loading MinecraftRPG v2.0.1
+[20:09:27] [Server thread/INFO]: [CommandHook] Loading CommandHook v2.0.0
+[20:09:27] [Server thread/INFO]: [etCommon] Loading etCommon v2
+[20:09:27] [Server thread/INFO]: [HsRails] Loading HsRails v1.2.0
+[20:09:27] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[20:09:27] [Server thread/INFO]: [CommandButtons] Loading CommandButtons v5.0.2
+[20:09:27] [Server thread/INFO]: [RedstoneChips] Loading RedstoneChips v0.97
+[20:09:27] [Server thread/INFO]: [BasicCircuits] Loading BasicCircuits v0.97
+[20:09:27] [Server thread/INFO]: [dynmap] Loading dynmap v3.3-beta-1-564
+[20:09:27] [Server thread/INFO]: [dynmap] version=3586-Spigot-4c157bb-5cc9c02 (MC: 1.19.2)
+[20:09:27] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
+[20:09:27] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
+[20:09:27] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v3.3-beta-1-564 (Is it up to date?)
+java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
+	at org.dynmap.bukkit.helper.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:166) ~[?:?]
+	at org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:45) ~[?:?]
+	at org.dynmap.bukkit.Helper.getHelper(Helper.java:75) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:869) ~[?:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:419) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:224) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20:09:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8-SNAPSHOT+5996-7b4e2c2
+[20:09:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@cf73730]
+[20:09:28] [Server thread/INFO]: [SensorLibrary] Loading SensorLibrary v0.34
+[20:09:28] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.2
+[20:09:28] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.0
+[20:09:28] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v4.1.2
+[20:09:28] [Server thread/INFO]: [LWC] Loading LWC v2.1.5-09ad392
+[20:09:28] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[20:09:28] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.19.0
+[20:09:28] [Server thread/INFO]: [ProMCCore] Loading ProMCCore v1.0.3.5-ALPHA
+[20:09:28] [Server thread/INFO]: [ProSkillAPI] Loading ProSkillAPI v1.1.7.14-ALPHA
+[20:09:28] [Server thread/INFO]: [ProSkillAPIParties] Loading ProSkillAPIParties v1.0-snapshot
+[20:09:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.86
+[20:09:29] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[20:09:29] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.86[m
+[20:09:29] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[20:09:29] [Server thread/INFO]: [m
+[20:09:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:09:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:09:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:09:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:09:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1852ms)
+[20:09:30] [Server thread/INFO]: [etCommon] Enabling etCommon v2
+[20:09:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:09:30] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.2 which is not a depend or softdepend of this plugin.
+[20:09:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:09:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:09:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:09:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:09:30] [Server thread/INFO]: [RedstoneChips] Enabling RedstoneChips v0.97
+[20:09:30] [Server thread/INFO]: [RedstoneChips] Loading BasicCircuits 0.97 > adder, and, clock, counter, demultiplexer, divider, flipflop, multiplexer, multiplier, or, pisoregister, print, random, receiver, shiftregister, transmitter, xor, decoder, encoder, pixel, pulse, not, synth, srnor, terminal, router, ringcounter, iptransmitter, ipreceiver, comparator, delay, repeater, nand, nor, xnor, segdriver, dregister, sram, bintobcd, display, burst, ramwatch.
+[20:09:30] [Server thread/INFO]: [RedstoneChips] Loading SensorLibrary 0.34 > photocell, pirsensor, rangefinder, daytime, slotinput, beacon, spark, vehicleid, playerid.
+[20:09:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8-SNAPSHOT+5996-7b4e2c2
+[20:09:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:09:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:09:31] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[20:09:31] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:09:31] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[20:09:31] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[20:09:31] [Server thread/INFO]: [WorldEdit]   
+[20:09:31] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[20:09:31] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[20:09:31] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[20:09:31] [Server thread/INFO]: [WorldEdit]   
+[20:09:31] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[20:09:31] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[20:09:31] [Server thread/INFO]: [WorldEdit]   
+[20:09:31] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[20:09:31] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[20:09:31] [Server thread/INFO]: [WorldEdit]   
+[20:09:31] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[20:09:31] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:09:31] [Server thread/INFO]: [LWC] Enabling LWC v2.1.5-09ad392
+[20:09:31] [Server thread/WARN]: [LWC] Loaded class com.sk89q.worldedit.extension.platform.Actor from WorldEdit v7.2.8-SNAPSHOT+5996-7b4e2c2 which is not a depend or softdepend of this plugin.
+[20:09:31] [Server thread/INFO]: [LWC] Connecting to SQLite
+[20:09:31] [Server thread/WARN]: [LWC] Loaded class com.sk89q.worldguard.bukkit.WorldGuardPlugin from WorldGuard v7.0.6+1cff55f which is not a depend or softdepend of this plugin.
+[20:09:32] [Server thread/INFO]: [ProMCCore] Enabling ProMCCore v1.0.3.5-ALPHA
+[20:09:32] [Server thread/INFO]: [ProMCCore] You are running MC version null
+[20:09:32] [Server thread/ERROR]: [ProMCCore] Could not setup NMS version. Plugin will be disabled.
+[20:09:32] [Server thread/INFO]: [ProMCCore] Disabling ProMCCore v1.0.3.5-ALPHA
+[20:09:32] [Server thread/INFO]: Preparing level "world"
+[20:09:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:09:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:09:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:09:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:09:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:09:32] [Server thread/INFO]: View Distance: 10
+[20:09:32] [Server thread/INFO]: Simulation Distance: 10
+[20:09:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:09:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:09:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:09:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:09:32] [Server thread/INFO]: Max TNT Explosions: 100
+[20:09:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:09:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:09:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:09:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:09:32] [Server thread/INFO]: Mob Spawn Range: 6
+[20:09:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:09:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:09:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:09:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:09:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:09:32] [Server thread/INFO]: View Distance: 10
+[20:09:32] [Server thread/INFO]: Simulation Distance: 10
+[20:09:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:09:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:09:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:09:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:09:32] [Server thread/INFO]: Max TNT Explosions: 100
+[20:09:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:09:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:09:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:09:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:09:32] [Server thread/INFO]: Mob Spawn Range: 6
+[20:09:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:09:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:09:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:09:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:09:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:09:32] [Server thread/INFO]: View Distance: 10
+[20:09:32] [Server thread/INFO]: Simulation Distance: 10
+[20:09:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:09:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:09:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:09:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:09:32] [Server thread/INFO]: Max TNT Explosions: 100
+[20:09:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:09:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:09:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:09:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:09:32] [Server thread/INFO]: Mob Spawn Range: 6
+[20:09:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:09:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:09:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:41] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:46] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:09:46] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:09:47] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:09:47] [Worker-Main-3/INFO]: Preparing spawn area: 42%
+[20:09:47] [Server thread/INFO]: Time elapsed: 14954 ms
+[20:09:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:52] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[20:09:53] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[20:09:53] [Server thread/INFO]: Time elapsed: 5161 ms
+[20:09:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:09:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:09:56] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[20:09:56] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[20:09:56] [Server thread/INFO]: Time elapsed: 3599 ms
+[20:09:56] [Server thread/INFO]: [MinecraftRPG] Enabling MinecraftRPG v2.0.1
+[20:09:56] [Server thread/INFO]: [0;32;1mPlugin Enabled[m
+[20:09:56] [Server thread/INFO]: [CommandHook] Enabling CommandHook v2.0.0
+[20:09:56] [Server thread/INFO]: [CommandHook] NMS package found: v1_19_R1
+[20:09:56] [Server thread/INFO]: [HsRails] Enabling HsRails v1.2.0
+[20:09:56] [Server thread/INFO]: [HsRails] Reading config
+[20:09:56] [Server thread/INFO]: [HsRails] Setting speed multiplier to 4.0
+[20:09:56] [Server thread/INFO]: [HsRails] Setting boost block to 'minecraft:redstone_block'
+[20:09:56] [Server thread/INFO]: [HsRails] Registering event listener
+[20:09:56] [Server thread/INFO]: [CommandButtons] Enabling CommandButtons v5.0.2
+[20:09:57] [Server thread/INFO]: 
+[20:09:57] [Server thread/INFO]: 
+[20:09:57] [Server thread/INFO]: [0;31;22m___________________ 
+[20:09:57] [Server thread/INFO]: [0;31;22m\_   ___ \______   \
+[20:09:57] [Server thread/INFO]: [0;31;22m/    \  \/|    |  _/
+[20:09:57] [Server thread/INFO]: [0;31;1m\     \___|    |   \
+[20:09:57] [Server thread/INFO]: [0;31;1m \______  |______  /
+[20:09:57] [Server thread/INFO]: [0;31;1m        \/       \/ 
+[20:09:57] [Server thread/INFO]: [m
+[20:09:57] [Server thread/INFO]: [CommandButtons] Loading configuration files...
+[20:09:57] [Server thread/INFO]: [CommandButtons] Initializing base settings...
+[20:09:57] [Server thread/INFO]: [CommandButtons] Hooking into Vault and economy plugin...
+[20:09:57] [Server thread/INFO]: [CommandButtons] Registering commands...
+[20:09:57] [Server thread/INFO]: [CommandButtons] Registering listeners...
+[20:09:57] [Server thread/INFO]: [CommandButtons] Loading metrics...
+[20:09:57] [Server thread/INFO]: [CommandButtons] Checking for updates...
+[20:09:57] [Server thread/INFO]: [0;30;1m[[0;31;22mCB[0;30;1m] [m[0;32;1mCommandButtons v5.0.2 by Demeng has been enabled in 95 ms.[m
+[20:09:57] [Server thread/INFO]: [BasicCircuits] Enabling BasicCircuits v0.97
+[20:09:57] [Server thread/INFO]: [dynmap] Enabling dynmap v3.3-beta-1-564
+[20:09:57] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[20:09:57] [Server thread/INFO]: [SensorLibrary] Enabling SensorLibrary v0.34
+[20:09:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.2
+[20:09:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:09:57] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[20:09:57] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsDiscord to the same version.
+[20:09:57] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[20:09:57] [Server thread/INFO]: No kits found to migrate.
+[20:09:57] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[20:09:57] [Server thread/INFO]: [Essentials] Starting usermap repair
+[20:09:57] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[20:09:57] [Server thread/INFO]: Attempting to migrate ignore list to UUIDs
+[20:09:57] [Server thread/INFO]: Attempting to migrate legacy userdata keys to Configurate
+[20:09:57] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3647)
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2673)
+[20:09:57] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[20:09:57] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:379)
+[20:09:57] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[20:09:57] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[20:09:57] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[20:09:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525)
+[20:09:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439)
+[20:09:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584)
+[20:09:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403)
+[20:09:57] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
+[20:09:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968)
+[20:09:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293)
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[20:09:57] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
+[20:09:57] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
+[20:09:57] [Server thread/WARN]: 	... 15 more
+[20:09:58] [Server thread/INFO]: Loaded 36926 items from items.json.
+[20:09:58] [Server thread/INFO]: Using locale de_DE
+[20:09:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:09:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:09:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:09:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:09:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.0
+[20:09:58] [Server thread/WARN]: [EssentialsChat] §4Versionen sind nicht gleich! Bitte aktualisiere alle Essentials jar-Dateien auf die gleiche Version.
+[20:09:58] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.19.0 (Is it up to date?)
+java.lang.NoSuchMethodError: 'void com.earth2me.essentials.metrics.MetricsWrapper.<init>(org.bukkit.plugin.Plugin, int, boolean)'
+	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:44) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v4.1.2
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Using lang-en.yml as language file.
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Shops.yml has been found!
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Sections.yml has been found!
+[20:09:58] [Server thread/WARN]: [EconomyShopGUI] Could not find a valid implementation for this server version. This will cause the plugin to not have a version to use and result in lots of items/methods not working. Please use a supported minecraft version.
+[20:09:58] [Server thread/INFO]: java.lang.ClassNotFoundException: me.gypopo.economyshopgui.versions.v1_19_R1.v1_19_R1
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Using plugin default spawners...
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Debug mode is enabled.
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Updating Shop settings...
+[20:09:58] [Server thread/INFO]: [EconomyShopGUI] Loading all items...
+[20:09:58] [Server thread/ERROR]: Error occurred while enabling EconomyShopGUI v4.1.2 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "me.gypopo.economyshopgui.VersionHandler.setPotionType(org.bukkit.inventory.ItemStack, String)" because "me.gypopo.economyshopgui.EconomyShopGUI.getInstance().versionHandler" is null
+	at me.gypopo.economyshopgui.methodes.CreateItemMethodes.setSectionItemOption(CreateItemMethodes.java:589) ~[?:?]
+	at me.gypopo.economyshopgui.methodes.CreateItem.loadSectionItem(CreateItem.java:149) ~[?:?]
+	at me.gypopo.economyshopgui.methodes.StartupReload.loadItems(StartupReload.java:149) ~[?:?]
+	at me.gypopo.economyshopgui.EconomyShopGUI.onEnable(EconomyShopGUI.java:145) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20:09:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:09:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:09:58] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:09:59] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.0
+[20:09:59] [Server thread/WARN]: [EssentialsDiscord] §4Versionen sind nicht gleich! Bitte aktualisiere alle Essentials jar-Dateien auf die gleiche Version.
+[20:09:59] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscord v2.19.0 (Is it up to date?)
+java.lang.NoSuchMethodError: 'void com.earth2me.essentials.metrics.MetricsWrapper.<init>(org.bukkit.plugin.Plugin, int, boolean)'
+	at net.essentialsx.discord.EssentialsDiscord.onEnable(EssentialsDiscord.java:40) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20:09:59] [Server thread/INFO]: [ProSkillAPI] Enabling ProSkillAPI v1.1.7.14-ALPHA
+[20:09:59] [Server thread/ERROR]: Error occurred while enabling ProSkillAPI v1.1.7.14-ALPHA (Is it up to date?)
+java.lang.NoClassDefFoundError: mc/promcteam/engine/utils/reflection/ReflectionUtil
+	at com.sucy.skill.api.particle.Particle.init(Particle.java:76) ~[?:?]
+	at com.sucy.skill.SkillAPI.onEnable(SkillAPI.java:609) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ClassNotFoundException: mc.promcteam.engine.utils.reflection.ReflectionUtil
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 13 more
+[20:09:59] [Server thread/INFO]: [ProSkillAPIParties] Enabling ProSkillAPIParties v1.0-snapshot
+[20:09:59] [Server thread/ERROR]: Error occurred while enabling ProSkillAPIParties v1.0-snapshot (Is it up to date?)
+java.lang.NoClassDefFoundError: mc/promcteam/engine/mccore/config/CommentedConfig
+	at com.sucy.party.Parties.onEnable(Parties.java:49) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ClassNotFoundException: mc.promcteam.engine.mccore.config.CommentedConfig
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 12 more
+[20:09:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:09:59] [Server thread/INFO]: Done (27.392s)! For help, type "help"
+[20:09:59] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:09:59] [Server thread/INFO]: [RedstoneChips] Processing 0 active chip(s).
+[20:09:59] [Craft Scheduler Thread - 4/INFO]: [Essentials] §6Fetching version information...
+[20:09:59] [Craft Scheduler Thread - 9/INFO]: [Vault] Checking for Updates ... 
+[20:09:59] [Craft Scheduler Thread - 10/WARN]: [RedstoneChips] Couldn't check for an update (FileNotFoundException).
+[20:09:59] [Craft Scheduler Thread - 9/INFO]: [Vault] No new version available
+[20:09:59] [Craft Scheduler Thread - 4/WARN]: [Essentials] §4There is a new EssentialsX version available for download: §c2.19.7§4.
+[20:09:59] [Craft Scheduler Thread - 4/WARN]: [Essentials] §4Hier herunterladen:§c https://essentialsx.net/downloads.html?branch=stable
+[20:09:59] [Craft Scheduler Thread - 2/INFO]: [0;32;22m*-----------------------------------------------------*[m
+[20:09:59] [Craft Scheduler Thread - 2/INFO]: [0;32;1mA newer version of CommandButtons is available![m
+[20:09:59] [Craft Scheduler Thread - 2/INFO]: [0;32;1mCurrent version: [m5.0.2[m
+[20:09:59] [Craft Scheduler Thread - 2/INFO]: [0;32;1mLatest version: [m5.1.0[m
+[20:09:59] [Craft Scheduler Thread - 2/INFO]: [0;32;1mGet the update: [mhttps://spigotmc.org/resources/60991[m
+[20:09:59] [Craft Scheduler Thread - 2/INFO]: [0;32;22m*-----------------------------------------------------*[m
+[20:10:00] [Server thread/INFO]: [CommandButtons] Loaded 0 command button(s).
+[20:10:24] [User Authenticator #1/INFO]: UUID of player GXR_Wes is f404cc17-c62a-4641-bf6d-693f58222108
+[20:10:25] [Server thread/INFO]: GXR_Wes joined the game
+[20:10:25] [Server thread/INFO]: GXR_Wes[/217.149.161.93:43345] logged in with entity id 279 at ([world]-287.9171570947781, 111.0, 917.3086147454097)
+[20:10:25] [Server thread/WARN]: File motd.txt does not exist. Creating one for you.
+[20:10:27] [Server thread/INFO]: Could not get player levels. Default set
+[20:10:27] [Server thread/INFO]: Could not get player levels. Default set
+[20:10:34] [Server thread/INFO]: Could not get player levels. Default set
+[20:10:35] [Server thread/INFO]: Could not get player levels. Default set
+[20:10:35] [Server thread/INFO]: Could not get player levels. Default set
+[20:10:45] [Server thread/INFO]: Made GXR_Wes a server operator
+[20:10:59] [Server thread/INFO]: GXR_Wes issued server command: /setworldspawn
+[20:10:59] [Server thread/INFO]: [GXR_Wes: Set the world spawn point to -274, 137, 919 [0.0]]
+[20:11:03] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:03] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:04] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:04] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:04] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:04] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:04] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:05] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:09] [Server thread/INFO]: is custom
+[20:11:09] [Server thread/INFO]: Boss spawned Location{world=CraftWorld{name=world},x=-326.5,y=86.0,z=913.5,pitch=0.0,yaw=0.0024039967}
+[20:11:10] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:13] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:13] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:14] [Server thread/INFO]: GXR_Wes issued server command: /kill GXR_Wes
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: Chest full. Item dropped on floor.
+[20:11:14] [Server thread/INFO]: OOF.... That sucks. Try Again ?
+[20:11:20] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:20] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:20] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:20] [Server thread/INFO]: Could not get player levels. Default set
+[20:11:34] [Server thread/INFO]: Stopping the server
+[20:11:34] [Server thread/INFO]: Stopping server
+[20:11:34] [Server thread/INFO]: [ProSkillAPIParties] Disabling ProSkillAPIParties v1.0-snapshot
+[20:11:34] [Server thread/ERROR]: Error occurred while disabling ProSkillAPIParties v1.0-snapshot (Is it up to date?)
+java.lang.NoClassDefFoundError: mc/promcteam/engine/mccore/scoreboard/StatHolder
+	at com.sucy.party.Parties.onDisable(Parties.java:94) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.disablePlugins(CraftServer.java:459) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.s(MinecraftServer.java:860) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.s(DedicatedServer.java:697) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1046) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ClassNotFoundException: mc.promcteam.engine.mccore.scoreboard.StatHolder
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 11 more
+[20:11:34] [Server thread/INFO]: [ProSkillAPI] Disabling ProSkillAPI v1.1.7.14-ALPHA
+[20:11:34] [Server thread/ERROR]: Error occurred while disabling ProSkillAPI v1.1.7.14-ALPHA (Is it up to date?)
+java.lang.NoClassDefFoundError: mc/promcteam/engine/mccore/scoreboard/StatHolder
+	at com.sucy.skill.SkillAPI.onDisable(SkillAPI.java:575) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.disablePlugins(CraftServer.java:459) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.s(MinecraftServer.java:860) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.s(DedicatedServer.java:697) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1046) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ClassNotFoundException: mc.promcteam.engine.mccore.scoreboard.StatHolder
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 11 more
+[20:11:34] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.0
+[20:11:34] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
+[20:11:34] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:11:34] [Server thread/INFO]: [LWC] Disabling LWC v2.1.5-09ad392
+[20:11:34] [Server thread/INFO]: [LWC] Flushing protection updates (0)
+[20:11:34] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v4.1.2
+[20:11:34] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.0
+[20:11:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.2
+[20:11:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[20:11:34] [Server thread/ERROR]: Es gibt eine gute Chance, dass du den Server gerade reloadest. Falls das der Fall ist, wieso hasst du dich selber? Erwarte keine Unterstützung des EssentialsX-Teams wenn du /reload verwendest.
+[20:11:34] [Server thread/INFO]: [SensorLibrary] Disabling SensorLibrary v0.34
+[20:11:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.8-SNAPSHOT+5996-7b4e2c2
+[20:11:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:11:34] [Server thread/INFO]: [dynmap] Disabling dynmap v3.3-beta-1-564
+[20:11:34] [Server thread/ERROR]: Error occurred while disabling dynmap v3.3-beta-1-564 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1056) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.disablePlugins(CraftServer.java:459) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.s(MinecraftServer.java:860) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.dedicated.DedicatedServer.s(DedicatedServer.java:697) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1046) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3586-Spigot-4c157bb-5cc9c02]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[20:11:34] [Server thread/INFO]: [BasicCircuits] Disabling BasicCircuits v0.97
+[20:11:34] [Server thread/INFO]: [RedstoneChips] Disabling RedstoneChips v0.97
+[20:11:34] [Server thread/INFO]: [RedstoneChips] Saving world chip data...
+[20:11:34] [Server thread/INFO]: [RedstoneChips] Saving world_nether chip data...
+[20:11:34] [Server thread/INFO]: [RedstoneChips] Saving world_the_end chip data...
+[20:11:34] [Server thread/INFO]: [CommandButtons] Disabling CommandButtons v5.0.2
+[20:11:34] [Server thread/INFO]: [0;30;1m[[0;31;22mCB[0;30;1m] [m[0;31;1mCommandButtons v5.0.2 by Demeng has been disabled.[m
+[20:11:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:11:34] [Server thread/INFO]: [HsRails] Disabling HsRails v1.2.0
+[20:11:34] [Server thread/INFO]: [HsRails] unloading...
+[20:11:34] [Server thread/INFO]: [etCommon] Disabling etCommon v2
+[20:11:34] [Server thread/INFO]: [CommandHook] Disabling CommandHook v2.0.0
+[20:11:34] [Server thread/INFO]: [MinecraftRPG] Disabling MinecraftRPG v2.0.1
+[20:11:34] [Server thread/INFO]: [0;31;1mPlugin Disabled[m
+[20:11:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.86
+[20:11:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:11:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:11:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:11:35] [Server thread/INFO]: Saving players
+[20:11:35] [Server thread/INFO]: GXR_Wes lost connection: Server closed
+[20:11:35] [Server thread/INFO]: GXR_Wes left the game.
+[20:11:35] [Server thread/INFO]: Saving worlds
+[20:11:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:11:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:11:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:11:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:11:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:11:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:11:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
