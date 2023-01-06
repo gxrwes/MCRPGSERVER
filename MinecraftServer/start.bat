@@ -1,7 +1,7 @@
 :: Start without GUI
 echo STARTING MC-Server without GUI
 @echo off
-java -Xms2G -Xmx2G -XX:+UseG1GC -jar spigot-1.18.jar nogui
+java -Xms2G -Xmx2G -XX:+UseG1GC -jar spigot-1.19.2.jar nogui
 pause
 
 
