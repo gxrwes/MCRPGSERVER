@@ -1,0 +1,7 @@
+name: WBank
+version: 1.0
+main: at.ws.bankplugin.program.Main
+description: This plugin does so much stuff it can't be contained!
+commands:
+   test:
+      description: this is a test function
